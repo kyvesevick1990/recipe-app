@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { ArrowLeft, Plus, Trash2, GripVertical, Upload, Image as ImageIcon } from 'lucide-react'
 import { supabase, Recipe, Ingredient, Direction } from '@/lib/supabase'
+import ImportRecipe from './ImportRecipe'
 
 type RecipeFormProps = {
   recipeId?: string
@@ -276,6 +277,57 @@ export default function RecipeForm({ recipeId }: RecipeFormProps) {
     e.preventDefault()
   }
 
+  // Handle imported recipe data
+  const handleImport = (importedRecipe: {
+    title: string
+    servings: number
+    prep_time_minutes: number | null
+    cook_time_minutes: number | null
+    total_time_minutes: number | null
+    ingredients: { text: string; amount: number | null; unit: string | null; item: string | null; scalable: boolean }[]
+    directions: string[]
+    notes: string | null
+    tags: { protein: string[]; cuisine: string[]; method: string[]; meal_type: string[]; effort: string | null }
+    source: string | null
+    wine_pairing: string | null
+  }) => {
+    setTitle(importedRecipe.title || '')
+    setServings(importedRecipe.servings?.toString() || '4')
+    setPrepTime(importedRecipe.prep_time_minutes?.toString() || '')
+    setCookTime(importedRecipe.cook_time_minutes?.toString() || '')
+    setTotalTime(importedRecipe.total_time_minutes?.toString() || '')
+    setSource(importedRecipe.source || '')
+    setNotes(importedRecipe.notes || '')
+
+    // Set tags
+    setSelectedTags({
+      protein: importedRecipe.tags?.protein || [],
+      cuisine: importedRecipe.tags?.cuisine || [],
+      method: importedRecipe.tags?.method || [],
+      meal_type: importedRecipe.tags?.meal_type || [],
+      effort: importedRecipe.tags?.effort || null,
+    })
+
+    // Set ingredients
+    if (importedRecipe.ingredients && importedRecipe.ingredients.length > 0) {
+      setIngredients(importedRecipe.ingredients.map(ing => ({
+        text: ing.text || '',
+        amount: ing.amount?.toString() || '',
+        unit: ing.unit || '',
+        item: ing.item || '',
+        scalable: ing.scalable ?? true
+      })))
+    }
+
+    // Set directions
+    if (importedRecipe.directions && importedRecipe.directions.length > 0) {
+      setDirections(importedRecipe.directions.map((text, index) => ({
+        step_number: index + 1,
+        text: text
+      })))
+    }
+  }
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setSaving(true)
@@ -371,6 +423,9 @@ export default function RecipeForm({ recipeId }: RecipeFormProps) {
       </div>
 
       <form onSubmit={handleSubmit} className="max-w-3xl mx-auto px-4 pt-6">
+        {/* Import Buttons - only show when creating new recipe */}
+        {!isEditing && <ImportRecipe onImport={handleImport} />}
+
         {/* Basic Info */}
         <div className="card p-4 mb-6">
           <h2 className="text-lg font-semibold mb-4">Basic Info</h2>
