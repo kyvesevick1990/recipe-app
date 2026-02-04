@@ -162,7 +162,7 @@ export default function Home() {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Search recipes..."
-                className="w-full pl-10 pr-4"
+                className="w-full search-input"
               />
             </div>
             <button
