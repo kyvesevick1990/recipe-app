@@ -6,6 +6,7 @@ import { ArrowLeft, Clock, Minus, Plus, Edit, MessageSquarePlus, X, Check } from
 import { supabase, Recipe, Ingredient, Direction } from '@/lib/supabase'
 import FavoriteButton from './FavoriteButton'
 import PrintRecipe from './PrintRecipe'
+import WinePairing from './WinePairing'
 
 type RecipeViewProps = {
   recipeId: string
@@ -363,6 +364,13 @@ export default function RecipeView({ recipeId }: RecipeViewProps) {
             <p className="text-gray-700 whitespace-pre-wrap">{recipe.notes}</p>
           </div>
         )}
+
+        {/* Wine Pairing */}
+        <WinePairing
+          recipe={recipe}
+          ingredients={ingredients}
+          onUpdate={(pairing) => setRecipe({ ...recipe, wine_pairing: pairing })}
+        />
 
         {/* Source */}
         {recipe.source && (

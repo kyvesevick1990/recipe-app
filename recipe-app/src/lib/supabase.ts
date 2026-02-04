@@ -15,6 +15,7 @@ export type Recipe = {
   total_time_minutes: number | null
   source: string | null
   notes: string | null
+  wine_pairing: string | null
   tags: {
     protein: string[]
     cuisine: string[]
