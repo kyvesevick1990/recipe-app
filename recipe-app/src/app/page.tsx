@@ -5,11 +5,15 @@ import { Search, Filter, Plus, X, LogOut, Heart } from 'lucide-react'
 import Link from 'next/link'
 import { supabase, Recipe } from '@/lib/supabase'
 import { checkAuthCookie, clearAuthCookie } from '@/lib/auth'
+import { getViewMode, setViewMode, ViewMode } from '@/lib/localStorage'
 import LoginPage from '@/components/LoginPage'
 import RecipeCard from '@/components/RecipeCard'
+import RecipeListItem from '@/components/RecipeListItem'
+import RecipeCompactItem from '@/components/RecipeCompactItem'
 import TagFilter from '@/components/TagFilter'
 import RecentlyViewed from '@/components/RecentlyViewed'
 import ThemeToggle from '@/components/ThemeToggle'
+import ViewModeToggle from '@/components/ViewModeToggle'
 
 const TAG_OPTIONS = {
   protein: ['Beef', 'Pork', 'Chicken', 'Seafood', 'Lamb', 'Vegetarian', 'Vegan'],
@@ -40,6 +44,7 @@ export default function Home() {
   })
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false)
   const [favoriteIds, setFavoriteIds] = useState<Set<string>>(new Set())
+  const [viewMode, setViewModeState] = useState<ViewMode>('tile')
 
   useEffect(() => {
     // Check if user is authenticated
@@ -50,7 +55,15 @@ export default function Home() {
       loadRecipes()
       loadFavorites()
     }
+
+    // Load view mode preference
+    setViewModeState(getViewMode())
   }, [])
+
+  const handleViewModeChange = (mode: ViewMode) => {
+    setViewModeState(mode)
+    setViewMode(mode)
+  }
 
   async function loadFavorites() {
     const { data, error } = await supabase
@@ -205,6 +218,7 @@ export default function Home() {
                 </span>
               )}
             </button>
+            <ViewModeToggle viewMode={viewMode} onChange={handleViewModeChange} />
           </div>
         </div>
 
@@ -285,11 +299,33 @@ export default function Home() {
               {filteredRecipes.length} recipe{filteredRecipes.length !== 1 ? 's' : ''}
               {hasActiveFilters && ` (filtered from ${recipes.length})`}
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredRecipes.map((recipe) => (
-                <RecipeCard key={recipe.id} recipe={recipe} />
-              ))}
-            </div>
+
+            {/* Tile View */}
+            {viewMode === 'tile' && (
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {filteredRecipes.map((recipe) => (
+                  <RecipeCard key={recipe.id} recipe={recipe} />
+                ))}
+              </div>
+            )}
+
+            {/* List View */}
+            {viewMode === 'list' && (
+              <div className="flex flex-col gap-4">
+                {filteredRecipes.map((recipe) => (
+                  <RecipeListItem key={recipe.id} recipe={recipe} />
+                ))}
+              </div>
+            )}
+
+            {/* Compact View */}
+            {viewMode === 'compact' && (
+              <div className="flex flex-col gap-2">
+                {filteredRecipes.map((recipe) => (
+                  <RecipeCompactItem key={recipe.id} recipe={recipe} />
+                ))}
+              </div>
+            )}
           </>
         )}
       </div>
