@@ -1,7 +1,8 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Search, Filter, Plus, X, LogOut, Heart } from 'lucide-react'
+import { Search, Filter, Plus, X, LogOut, Heart, Shuffle } from 'lucide-react'
+import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { supabase, Recipe } from '@/lib/supabase'
 import { checkAuthCookie, clearAuthCookie } from '@/lib/auth'
@@ -24,9 +25,11 @@ const TAG_OPTIONS = {
 }
 
 export default function Home() {
+  const router = useRouter()
   const [authenticated, setAuthenticated] = useState<boolean | null>(null)
   const [recipes, setRecipes] = useState<Recipe[]>([])
   const [loading, setLoading] = useState(true)
+  const [isShuffling, setIsShuffling] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
   const [showFilters, setShowFilters] = useState(false)
   const [filters, setFilters] = useState<{
@@ -115,6 +118,19 @@ export default function Home() {
 
   const hasActiveFilters = Object.values(filters).some(f => f.length > 0) || searchQuery || showFavoritesOnly
 
+  const handleSurpriseMe = () => {
+    if (filteredRecipes.length === 0) return
+
+    setIsShuffling(true)
+
+    // Brief shuffle animation delay
+    setTimeout(() => {
+      const randomIndex = Math.floor(Math.random() * filteredRecipes.length)
+      const randomRecipe = filteredRecipes[randomIndex]
+      router.push(`/recipe/${randomRecipe.id}`)
+    }, 400)
+  }
+
   // Filter recipes based on search, favorites, and tag filters
   const filteredRecipes = recipes.filter(recipe => {
     // Favorites filter
@@ -174,8 +190,17 @@ export default function Home() {
               🍳 Recipes
             </h1>
             <div className="flex items-center gap-2">
+              <button
+                onClick={handleSurpriseMe}
+                disabled={isShuffling || filteredRecipes.length === 0}
+                className="btn btn-secondary"
+                title="Pick a random recipe"
+              >
+                <Shuffle size={18} className={isShuffling ? 'animate-spin' : ''} />
+                <span className="hidden sm:inline ml-1">Surprise Me</span>
+              </button>
               <Link href="/recipe/new" className="btn btn-primary">
-                <Plus size={18} className="mr-1" /> Add
+                <Plus size={18} className="mr-1" /> <span className="hidden sm:inline">Add</span>
               </Link>
               <ThemeToggle />
               <button
