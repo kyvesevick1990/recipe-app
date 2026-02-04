@@ -13,6 +13,7 @@ import RecipeListItem from '@/components/RecipeListItem'
 import RecipeCompactItem from '@/components/RecipeCompactItem'
 import TagFilter from '@/components/TagFilter'
 import RecentlyViewed from '@/components/RecentlyViewed'
+import SeasonalSuggestions from '@/components/SeasonalSuggestions'
 import ThemeToggle from '@/components/ThemeToggle'
 import ViewModeToggle from '@/components/ViewModeToggle'
 
@@ -302,6 +303,9 @@ export default function Home() {
       <div className="max-w-6xl mx-auto px-4 pt-6">
         {/* Recently Viewed Section */}
         {!hasActiveFilters && <RecentlyViewed />}
+
+        {/* Seasonal Suggestions */}
+        {!hasActiveFilters && <SeasonalSuggestions />}
 
         {loading ? (
           <div className="text-center text-gray-500 py-12">Loading recipes...</div>
