@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Search, Filter, Plus, X, LogOut } from 'lucide-react'
+import { Search, Filter, Plus, X, LogOut, Heart } from 'lucide-react'
 import Link from 'next/link'
 import { supabase, Recipe } from '@/lib/supabase'
 import { checkAuthCookie, clearAuthCookie } from '@/lib/auth'
@@ -37,16 +37,29 @@ export default function Home() {
     meal_type: [],
     effort: [],
   })
+  const [showFavoritesOnly, setShowFavoritesOnly] = useState(false)
+  const [favoriteIds, setFavoriteIds] = useState<Set<string>>(new Set())
 
   useEffect(() => {
     // Check if user is authenticated
     const isAuth = checkAuthCookie()
     setAuthenticated(isAuth)
-    
+
     if (isAuth) {
       loadRecipes()
+      loadFavorites()
     }
   }, [])
+
+  async function loadFavorites() {
+    const { data, error } = await supabase
+      .from('favorites')
+      .select('recipe_id')
+
+    if (!error && data) {
+      setFavoriteIds(new Set(data.map(f => f.recipe_id)))
+    }
+  }
 
   async function loadRecipes() {
     setLoading(true)
@@ -83,12 +96,18 @@ export default function Home() {
       effort: [],
     })
     setSearchQuery('')
+    setShowFavoritesOnly(false)
   }
 
-  const hasActiveFilters = Object.values(filters).some(f => f.length > 0) || searchQuery
+  const hasActiveFilters = Object.values(filters).some(f => f.length > 0) || searchQuery || showFavoritesOnly
 
-  // Filter recipes based on search and tag filters
+  // Filter recipes based on search, favorites, and tag filters
   const filteredRecipes = recipes.filter(recipe => {
+    // Favorites filter
+    if (showFavoritesOnly && !favoriteIds.has(recipe.id)) {
+      return false
+    }
+
     // Search filter
     if (searchQuery) {
       const query = searchQuery.toLowerCase()
@@ -103,10 +122,10 @@ export default function Home() {
     // Tag filters
     for (const [category, selectedTags] of Object.entries(filters)) {
       if (selectedTags.length > 0) {
-        const recipeTags = category === 'effort' 
+        const recipeTags = category === 'effort'
           ? (recipe.tags?.effort ? [recipe.tags.effort] : [])
           : (recipe.tags?.[category as keyof typeof recipe.tags] as string[] || [])
-        
+
         const hasMatch = selectedTags.some(tag => recipeTags.includes(tag))
         if (!hasMatch) {
           return false
@@ -167,13 +186,20 @@ export default function Home() {
               />
             </div>
             <button
+              onClick={() => setShowFavoritesOnly(!showFavoritesOnly)}
+              className={`btn ${showFavoritesOnly ? 'btn-primary' : 'btn-secondary'}`}
+              title={showFavoritesOnly ? 'Show all recipes' : 'Show favorites only'}
+            >
+              <Heart size={18} className={showFavoritesOnly ? 'fill-white' : ''} />
+            </button>
+            <button
               onClick={() => setShowFilters(!showFilters)}
-              className={`btn ${showFilters || hasActiveFilters ? 'btn-primary' : 'btn-secondary'}`}
+              className={`btn ${showFilters || Object.values(filters).some(f => f.length > 0) ? 'btn-primary' : 'btn-secondary'}`}
             >
               <Filter size={18} />
-              {hasActiveFilters && (
+              {Object.values(filters).some(f => f.length > 0) && (
                 <span className="ml-1 text-xs bg-white text-[var(--color-accent)] rounded-full w-5 h-5 flex items-center justify-center">
-                  {Object.values(filters).flat().length + (searchQuery ? 1 : 0)}
+                  {Object.values(filters).flat().length}
                 </span>
               )}
             </button>

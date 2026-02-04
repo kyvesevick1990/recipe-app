@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { Clock } from 'lucide-react'
 import { Recipe } from '@/lib/supabase'
+import FavoriteButton from './FavoriteButton'
 
 type RecipeCardProps = {
   recipe: Recipe
@@ -42,6 +43,10 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
               🍽️
             </div>
           )}
+          {/* Favorite button */}
+          <div className="absolute top-2 right-2">
+            <FavoriteButton recipeId={recipe.id} size="sm" />
+          </div>
         </div>
 
         {/* Content */}
