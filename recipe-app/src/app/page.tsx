@@ -9,6 +9,7 @@ import LoginPage from '@/components/LoginPage'
 import RecipeCard from '@/components/RecipeCard'
 import TagFilter from '@/components/TagFilter'
 import RecentlyViewed from '@/components/RecentlyViewed'
+import ThemeToggle from '@/components/ThemeToggle'
 
 const TAG_OPTIONS = {
   protein: ['Beef', 'Pork', 'Chicken', 'Seafood', 'Lamb', 'Vegetarian', 'Vegan'],
@@ -163,6 +164,7 @@ export default function Home() {
               <Link href="/recipe/new" className="btn btn-primary">
                 <Plus size={18} className="mr-1" /> Add
               </Link>
+              <ThemeToggle />
               <button
                 onClick={handleLogout}
                 className="tap-target p-2 text-gray-500 hover:text-gray-700"
@@ -208,7 +210,7 @@ export default function Home() {
 
         {/* Filter Panel */}
         {showFilters && (
-          <div className="border-t border-[var(--color-border)] bg-white">
+          <div className="border-t border-[var(--color-border)] bg-[var(--color-surface)]">
             <div className="max-w-6xl mx-auto px-4 py-4">
               <div className="flex items-center justify-between mb-4">
                 <h2 className="font-semibold">Filters</h2>
