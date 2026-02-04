@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { ArrowLeft, Clock, Minus, Plus, Edit, MessageSquarePlus, X, Check } from 'lucide-react'
 import { supabase, Recipe, Ingredient, Direction } from '@/lib/supabase'
 import FavoriteButton from './FavoriteButton'
+import PrintRecipe from './PrintRecipe'
 
 type RecipeViewProps = {
   recipeId: string
@@ -158,7 +159,16 @@ export default function RecipeView({ recipeId }: RecipeViewProps) {
           <Link href="/" className="tap-target flex items-center text-gray-600 hover:text-gray-900">
             <ArrowLeft size={20} />
           </Link>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
+            {recipe && (
+              <PrintRecipe
+                recipe={recipe}
+                ingredients={ingredients}
+                directions={directions}
+                currentServings={servings}
+                originalServings={originalServings}
+              />
+            )}
             <FavoriteButton recipeId={recipeId} size="md" />
             <Link href={`/recipe/${recipeId}/edit`} className="tap-target flex items-center gap-1 text-gray-600 hover:text-gray-900">
               <Edit size={18} />
