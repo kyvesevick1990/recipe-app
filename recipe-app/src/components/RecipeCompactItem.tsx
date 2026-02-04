@@ -28,9 +28,9 @@ export default function RecipeCompactItem({ recipe }: RecipeCompactItemProps) {
 
   return (
     <Link href={`/recipe/${recipe.id}`}>
-      <div className="card px-3 py-2 sm:px-4 sm:py-3 hover:shadow-md transition-shadow cursor-pointer flex items-center gap-3">
+      <div className="card px-3 py-2 sm:px-4 sm:py-3 cursor-pointer flex items-center gap-3 group transition-all duration-200 hover:shadow-md hover:border-[var(--color-accent)] active:scale-[0.995]">
         {/* Title */}
-        <h3 className="font-medium flex-1 min-w-0 truncate">{recipe.title}</h3>
+        <h3 className="font-medium flex-1 min-w-0 truncate group-hover:text-[var(--color-accent)] transition-colors">{recipe.title}</h3>
 
         {/* Tags */}
         <div className="hidden sm:flex gap-1 flex-shrink-0">

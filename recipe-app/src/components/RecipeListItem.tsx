@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { Clock } from 'lucide-react'
+import { Clock, Utensils } from 'lucide-react'
 import { Recipe } from '@/lib/supabase'
 import FavoriteButton from './FavoriteButton'
 
@@ -27,20 +27,23 @@ export default function RecipeListItem({ recipe }: RecipeListItemProps) {
     ...(recipe.tags?.method || []),
   ].slice(0, 4)
 
+  // Get primary cuisine for placeholder
+  const primaryCuisine = recipe.tags?.cuisine?.[0] || recipe.tags?.protein?.[0] || null
+
   return (
     <Link href={`/recipe/${recipe.id}`}>
-      <div className="card overflow-hidden hover:shadow-lg transition-shadow cursor-pointer flex">
+      <div className="card overflow-hidden cursor-pointer flex group transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5 active:scale-[0.99]">
         {/* Photo */}
-        <div className="w-24 h-24 sm:w-32 sm:h-32 flex-shrink-0 bg-gray-100 relative">
+        <div className="w-24 h-24 sm:w-32 sm:h-32 flex-shrink-0 bg-gray-100 relative overflow-hidden">
           {recipe.photo_urls && recipe.photo_urls.length > 0 ? (
             <img
               src={recipe.photo_urls[0]}
               alt={recipe.title}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
             />
           ) : (
-            <div className="w-full h-full flex items-center justify-center text-2xl">
-              🍽️
+            <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-[var(--color-background)] to-[var(--color-border)]">
+              <Utensils size={24} className="text-[var(--color-accent)] opacity-50" />
             </div>
           )}
         </div>
@@ -49,7 +52,7 @@ export default function RecipeListItem({ recipe }: RecipeListItemProps) {
         <div className="flex-1 p-3 sm:p-4 flex flex-col justify-between min-w-0">
           <div>
             <div className="flex items-start justify-between gap-2">
-              <h3 className="font-semibold text-base sm:text-lg line-clamp-1">{recipe.title}</h3>
+              <h3 className="font-semibold text-base sm:text-lg line-clamp-1 group-hover:text-[var(--color-accent)] transition-colors">{recipe.title}</h3>
               <FavoriteButton recipeId={recipe.id} size="sm" />
             </div>
 
