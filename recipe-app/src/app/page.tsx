@@ -8,6 +8,7 @@ import { checkAuthCookie, clearAuthCookie } from '@/lib/auth'
 import LoginPage from '@/components/LoginPage'
 import RecipeCard from '@/components/RecipeCard'
 import TagFilter from '@/components/TagFilter'
+import RecentlyViewed from '@/components/RecentlyViewed'
 
 const TAG_OPTIONS = {
   protein: ['Beef', 'Pork', 'Chicken', 'Seafood', 'Lamb', 'Vegetarian', 'Vegan'],
@@ -232,6 +233,9 @@ export default function Home() {
 
       {/* Recipe Grid */}
       <div className="max-w-6xl mx-auto px-4 pt-6">
+        {/* Recently Viewed Section */}
+        {!hasActiveFilters && <RecentlyViewed />}
+
         {loading ? (
           <div className="text-center text-gray-500 py-12">Loading recipes...</div>
         ) : filteredRecipes.length === 0 ? (

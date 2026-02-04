@@ -3,6 +3,7 @@
 import { useParams } from 'next/navigation'
 import { useState, useEffect } from 'react'
 import { checkAuthCookie } from '@/lib/auth'
+import { addToRecentlyViewed } from '@/lib/localStorage'
 import LoginPage from '@/components/LoginPage'
 import RecipeView from '@/components/RecipeView'
 
@@ -12,8 +13,14 @@ export default function RecipePage() {
   const [authenticated, setAuthenticated] = useState<boolean | null>(null)
 
   useEffect(() => {
-    setAuthenticated(checkAuthCookie())
-  }, [])
+    const isAuth = checkAuthCookie()
+    setAuthenticated(isAuth)
+
+    // Track this recipe as recently viewed if authenticated
+    if (isAuth && recipeId) {
+      addToRecentlyViewed(recipeId)
+    }
+  }, [recipeId])
 
   if (authenticated === null) {
     return (
