@@ -1,9 +1,9 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
-import { ArrowLeft, Plus, Trash2, GripVertical } from 'lucide-react'
+import { ArrowLeft, Plus, Trash2, GripVertical, Upload, Image as ImageIcon } from 'lucide-react'
 import { supabase, Recipe, Ingredient, Direction } from '@/lib/supabase'
 
 type RecipeFormProps = {
@@ -50,6 +50,8 @@ export default function RecipeForm({ recipeId }: RecipeFormProps) {
   const [notes, setNotes] = useState('')
   const [photoUrls, setPhotoUrls] = useState<string[]>([])
   const [newPhotoUrl, setNewPhotoUrl] = useState('')
+  const [uploadingPhoto, setUploadingPhoto] = useState(false)
+  const fileInputRef = useRef<HTMLInputElement>(null)
 
   // Tags
   const [selectedTags, setSelectedTags] = useState<{
@@ -184,8 +186,94 @@ export default function RecipeForm({ recipeId }: RecipeFormProps) {
     }
   }
 
-  const removePhotoUrl = (index: number) => {
+  const removePhotoUrl = async (index: number) => {
+    const urlToRemove = photoUrls[index]
+
+    // If it's a Supabase storage URL, try to delete the file
+    if (urlToRemove.includes('supabase') && urlToRemove.includes('recipe-photos')) {
+      try {
+        // Extract the file path from the URL
+        const urlParts = urlToRemove.split('/recipe-photos/')
+        if (urlParts[1]) {
+          await supabase.storage.from('recipe-photos').remove([urlParts[1]])
+        }
+      } catch (error) {
+        console.error('Error deleting photo from storage:', error)
+      }
+    }
+
     setPhotoUrls(photoUrls.filter((_, i) => i !== index))
+  }
+
+  const uploadPhoto = async (file: File) => {
+    setUploadingPhoto(true)
+
+    try {
+      // Create a unique filename
+      const fileExt = file.name.split('.').pop()
+      const fileName = `${Date.now()}-${Math.random().toString(36).substring(2)}.${fileExt}`
+
+      // Upload to Supabase storage
+      const { error: uploadError } = await supabase.storage
+        .from('recipe-photos')
+        .upload(fileName, file, {
+          cacheControl: '3600',
+          upsert: false
+        })
+
+      if (uploadError) {
+        throw uploadError
+      }
+
+      // Get the public URL
+      const { data: { publicUrl } } = supabase.storage
+        .from('recipe-photos')
+        .getPublicUrl(fileName)
+
+      setPhotoUrls([...photoUrls, publicUrl])
+    } catch (error) {
+      console.error('Error uploading photo:', error)
+      alert('Error uploading photo. Please try again.')
+    }
+
+    setUploadingPhoto(false)
+  }
+
+  const handleFileSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0]
+    if (file) {
+      // Validate file size (max 10MB)
+      if (file.size > 10 * 1024 * 1024) {
+        alert('File size must be less than 10MB')
+        return
+      }
+      // Validate file type
+      if (!file.type.startsWith('image/')) {
+        alert('Please select an image file')
+        return
+      }
+      uploadPhoto(file)
+    }
+    // Reset input so the same file can be selected again
+    if (fileInputRef.current) {
+      fileInputRef.current.value = ''
+    }
+  }
+
+  const handleDrop = (e: React.DragEvent) => {
+    e.preventDefault()
+    const file = e.dataTransfer.files?.[0]
+    if (file && file.type.startsWith('image/')) {
+      if (file.size > 10 * 1024 * 1024) {
+        alert('File size must be less than 10MB')
+        return
+      }
+      uploadPhoto(file)
+    }
+  }
+
+  const handleDragOver = (e: React.DragEvent) => {
+    e.preventDefault()
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -356,36 +444,87 @@ export default function RecipeForm({ recipeId }: RecipeFormProps) {
         {/* Photos */}
         <div className="card p-4 mb-6">
           <h2 className="text-lg font-semibold mb-4">Photos</h2>
-          
-          {photoUrls.map((url, index) => (
-            <div key={index} className="flex items-center gap-2 mb-2">
-              <img src={url} alt="" className="w-16 h-16 object-cover rounded" />
-              <span className="flex-1 text-sm text-gray-500 truncate">{url}</span>
+
+          {/* Existing photos */}
+          {photoUrls.length > 0 && (
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-4">
+              {photoUrls.map((url, index) => (
+                <div key={index} className="relative group">
+                  <img
+                    src={url}
+                    alt=""
+                    className="w-full aspect-square object-cover rounded-lg"
+                  />
+                  <button
+                    type="button"
+                    onClick={() => removePhotoUrl(index)}
+                    className="absolute top-2 right-2 p-1.5 bg-red-500 text-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity hover:bg-red-600"
+                  >
+                    <Trash2 size={14} />
+                  </button>
+                  {index === 0 && (
+                    <span className="absolute bottom-2 left-2 text-xs bg-black/60 text-white px-2 py-0.5 rounded">
+                      Cover
+                    </span>
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* Upload area */}
+          <div
+            onDrop={handleDrop}
+            onDragOver={handleDragOver}
+            className="border-2 border-dashed border-[var(--color-border)] rounded-lg p-6 text-center hover:border-[var(--color-accent)] transition-colors cursor-pointer"
+            onClick={() => fileInputRef.current?.click()}
+          >
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept="image/*"
+              onChange={handleFileSelect}
+              className="hidden"
+            />
+            {uploadingPhoto ? (
+              <div className="flex flex-col items-center gap-2">
+                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[var(--color-accent)]"></div>
+                <span className="text-sm text-gray-500">Uploading...</span>
+              </div>
+            ) : (
+              <div className="flex flex-col items-center gap-2">
+                <div className="w-12 h-12 rounded-full bg-[var(--color-background)] flex items-center justify-center">
+                  <Upload size={24} className="text-[var(--color-accent)]" />
+                </div>
+                <div>
+                  <span className="text-[var(--color-accent)] font-medium">Click to upload</span>
+                  <span className="text-gray-500"> or drag and drop</span>
+                </div>
+                <span className="text-xs text-gray-400">PNG, JPG, HEIC up to 10MB</span>
+              </div>
+            )}
+          </div>
+
+          {/* URL input as alternative */}
+          <div className="mt-4 pt-4 border-t border-[var(--color-border)]">
+            <p className="text-sm text-gray-500 mb-2">Or add by URL:</p>
+            <div className="flex gap-2">
+              <input
+                type="url"
+                value={newPhotoUrl}
+                onChange={(e) => setNewPhotoUrl(e.target.value)}
+                placeholder="Paste photo URL"
+                className="flex-1"
+              />
               <button
                 type="button"
-                onClick={() => removePhotoUrl(index)}
-                className="tap-target p-2 text-red-500 hover:bg-red-50 rounded"
+                onClick={addPhotoUrl}
+                disabled={!newPhotoUrl.trim()}
+                className="btn btn-secondary"
               >
-                <Trash2 size={18} />
+                Add
               </button>
             </div>
-          ))}
-
-          <div className="flex gap-2">
-            <input
-              type="url"
-              value={newPhotoUrl}
-              onChange={(e) => setNewPhotoUrl(e.target.value)}
-              placeholder="Paste photo URL"
-              className="flex-1"
-            />
-            <button
-              type="button"
-              onClick={addPhotoUrl}
-              className="btn btn-secondary"
-            >
-              Add
-            </button>
           </div>
         </div>
 
