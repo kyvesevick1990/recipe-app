@@ -216,9 +216,9 @@ export default function Home() {
               <Image
                 src="/roux-logo.png"
                 alt="Roux"
-                width={100}
-                height={50}
-                className="h-10 w-auto dark:invert"
+                width={140}
+                height={56}
+                className="h-14 w-auto dark:invert"
                 priority
               />
             </Link>
