@@ -222,3 +222,13 @@ select:focus {
 .dark .bg-white {
   background-color: var(--color-surface);
 }
+
+/* Logo styling - invert for dark mode */
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+.dark .logo {
+  filter: invert(1);
+}

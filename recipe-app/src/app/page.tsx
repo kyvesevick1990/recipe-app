@@ -213,13 +213,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between mb-4">
             <Link href="/" className="block">
-              <Image
+              <img
                 src="/roux-logo.png"
                 alt="Roux"
-                width={200}
-                height={80}
-                className="h-20 w-auto dark:invert"
-                priority
+                className="logo"
               />
             </Link>
             <div className="flex items-center gap-2">
