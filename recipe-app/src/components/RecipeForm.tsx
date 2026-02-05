@@ -4,8 +4,9 @@ import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { ArrowLeft, Plus, Trash2, GripVertical, Upload, Image as ImageIcon } from 'lucide-react'
-import { supabase, Recipe, Ingredient, Direction } from '@/lib/supabase'
+import { supabase, Recipe, Ingredient, Direction, RecipeBook } from '@/lib/supabase'
 import ImportRecipe from './ImportRecipe'
+import BookSelector from './BookSelector'
 
 type RecipeFormProps = {
   recipeId?: string
@@ -53,6 +54,8 @@ export default function RecipeForm({ recipeId }: RecipeFormProps) {
   const [newPhotoUrl, setNewPhotoUrl] = useState('')
   const [uploadingPhoto, setUploadingPhoto] = useState(false)
   const fileInputRef = useRef<HTMLInputElement>(null)
+  const [books, setBooks] = useState<RecipeBook[]>([])
+  const [selectedBookId, setSelectedBookId] = useState<string | null>(null)
 
   // Tags
   const [selectedTags, setSelectedTags] = useState<{
@@ -78,10 +81,22 @@ export default function RecipeForm({ recipeId }: RecipeFormProps) {
   ])
 
   useEffect(() => {
+    loadBooks()
     if (isEditing) {
       loadRecipe()
     }
   }, [recipeId])
+
+  async function loadBooks() {
+    const { data } = await supabase
+      .from('recipe_books')
+      .select('*')
+      .order('sort_order')
+
+    if (data) {
+      setBooks(data)
+    }
+  }
 
   async function loadRecipe() {
     setLoading(true)
@@ -109,6 +124,7 @@ export default function RecipeForm({ recipeId }: RecipeFormProps) {
         meal_type: r.tags?.meal_type || [],
         effort: r.tags?.effort || null,
       })
+      setSelectedBookId(r.book_id || null)
     }
 
     if (ingredientsRes.data && ingredientsRes.data.length > 0) {
@@ -342,6 +358,7 @@ export default function RecipeForm({ recipeId }: RecipeFormProps) {
         source: source || null,
         notes: notes || null,
         photo_urls: photoUrls,
+        book_id: selectedBookId,
         tags: selectedTags,
       }
 
@@ -441,6 +458,15 @@ export default function RecipeForm({ recipeId }: RecipeFormProps) {
                 placeholder="Recipe title"
               />
             </div>
+
+            {/* Recipe Book Selection */}
+            {books.length > 0 && (
+              <BookSelector
+                books={books}
+                selectedBookId={selectedBookId}
+                onChange={setSelectedBookId}
+              />
+            )}
 
             <div className="grid grid-cols-2 gap-4">
               <div>

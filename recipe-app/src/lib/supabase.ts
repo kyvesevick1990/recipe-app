@@ -16,6 +16,7 @@ export type Recipe = {
   source: string | null
   notes: string | null
   wine_pairing: string | null
+  book_id: string | null
   tags: {
     protein: string[]
     cuisine: string[]
@@ -48,6 +49,16 @@ export type Direction = {
   step_number: number
   text: string
   user_note: string | null
+  created_at: string
+  updated_at: string
+}
+
+export type RecipeBook = {
+  id: string
+  name: string
+  description: string | null
+  icon: string
+  sort_order: number
   created_at: string
   updated_at: string
 }

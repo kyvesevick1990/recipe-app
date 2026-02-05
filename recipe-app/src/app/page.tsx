@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { Search, Filter, Plus, X, LogOut, Heart, Shuffle } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
-import { supabase, Recipe } from '@/lib/supabase'
+import { supabase, Recipe, RecipeBook } from '@/lib/supabase'
 import { checkAuthCookie, clearAuthCookie } from '@/lib/auth'
 import { getViewMode, setViewMode, ViewMode } from '@/lib/localStorage'
 import LoginPage from '@/components/LoginPage'
@@ -16,6 +16,8 @@ import RecentlyViewed from '@/components/RecentlyViewed'
 import SeasonalSuggestions from '@/components/SeasonalSuggestions'
 import ThemeToggle from '@/components/ThemeToggle'
 import ViewModeToggle from '@/components/ViewModeToggle'
+import BookFilter from '@/components/BookFilter'
+import ManageBooksModal from '@/components/ManageBooksModal'
 
 const TAG_OPTIONS = {
   protein: ['Beef', 'Pork', 'Chicken', 'Seafood', 'Lamb', 'Vegetarian', 'Vegan'],
@@ -49,6 +51,9 @@ export default function Home() {
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false)
   const [favoriteIds, setFavoriteIds] = useState<Set<string>>(new Set())
   const [viewMode, setViewModeState] = useState<ViewMode>('tile')
+  const [books, setBooks] = useState<RecipeBook[]>([])
+  const [selectedBookId, setSelectedBookId] = useState<string | null>(null)
+  const [showManageBooks, setShowManageBooks] = useState(false)
 
   useEffect(() => {
     // Check if user is authenticated
@@ -58,6 +63,7 @@ export default function Home() {
     if (isAuth) {
       loadRecipes()
       loadFavorites()
+      loadBooks()
     }
 
     // Load view mode preference
@@ -76,6 +82,17 @@ export default function Home() {
 
     if (!error && data) {
       setFavoriteIds(new Set(data.map(f => f.recipe_id)))
+    }
+  }
+
+  async function loadBooks() {
+    const { data, error } = await supabase
+      .from('recipe_books')
+      .select('*')
+      .order('sort_order')
+
+    if (!error && data) {
+      setBooks(data)
     }
   }
 
@@ -115,9 +132,10 @@ export default function Home() {
     })
     setSearchQuery('')
     setShowFavoritesOnly(false)
+    setSelectedBookId(null)
   }
 
-  const hasActiveFilters = Object.values(filters).some(f => f.length > 0) || searchQuery || showFavoritesOnly
+  const hasActiveFilters = Object.values(filters).some(f => f.length > 0) || searchQuery || showFavoritesOnly || selectedBookId
 
   const handleSurpriseMe = () => {
     if (filteredRecipes.length === 0) return
@@ -132,8 +150,13 @@ export default function Home() {
     }, 400)
   }
 
-  // Filter recipes based on search, favorites, and tag filters
+  // Filter recipes based on search, favorites, book, and tag filters
   const filteredRecipes = recipes.filter(recipe => {
+    // Book filter
+    if (selectedBookId && recipe.book_id !== selectedBookId) {
+      return false
+    }
+
     // Favorites filter
     if (showFavoritesOnly && !favoriteIds.has(recipe.id)) {
       return false
@@ -301,6 +324,16 @@ export default function Home() {
 
       {/* Recipe Grid */}
       <div className="max-w-6xl mx-auto px-4 pt-6">
+        {/* Book Filter */}
+        {books.length > 0 && (
+          <BookFilter
+            books={books}
+            selectedBookId={selectedBookId}
+            onChange={setSelectedBookId}
+            onManageBooks={() => setShowManageBooks(true)}
+          />
+        )}
+
         {/* Recently Viewed Section */}
         {!hasActiveFilters && <RecentlyViewed />}
 
@@ -358,6 +391,15 @@ export default function Home() {
           </>
         )}
       </div>
+
+      {/* Manage Books Modal */}
+      {showManageBooks && (
+        <ManageBooksModal
+          books={books}
+          onClose={() => setShowManageBooks(false)}
+          onBooksChanged={loadBooks}
+        />
+      )}
     </div>
   )
 }
