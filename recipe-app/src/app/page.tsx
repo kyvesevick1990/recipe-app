@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Search, Filter, Plus, X, LogOut, Heart, Shuffle, History } from 'lucide-react'
+import { Search, Filter, Plus, X, LogOut, Heart, Shuffle, History, Leaf } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -14,7 +14,7 @@ import RecipeListItem from '@/components/RecipeListItem'
 import RecipeCompactItem from '@/components/RecipeCompactItem'
 import TagFilter from '@/components/TagFilter'
 import RecentlyViewedModal from '@/components/RecentlyViewedModal'
-import SeasonalSuggestions from '@/components/SeasonalSuggestions'
+import SeasonalSuggestionsModal from '@/components/SeasonalSuggestionsModal'
 import ThemeToggle from '@/components/ThemeToggle'
 import ViewModeToggle from '@/components/ViewModeToggle'
 import BookFilter from '@/components/BookFilter'
@@ -56,6 +56,7 @@ export default function Home() {
   const [selectedBookId, setSelectedBookId] = useState<string | null>(null)
   const [showManageBooks, setShowManageBooks] = useState(false)
   const [showRecentlyViewed, setShowRecentlyViewed] = useState(false)
+  const [showSeasonal, setShowSeasonal] = useState(false)
 
   useEffect(() => {
     // Check if user is authenticated
@@ -342,6 +343,16 @@ export default function Home() {
             <span className="hidden sm:inline">Recent</span>
           </button>
 
+          {/* Seasonal Suggestions button */}
+          <button
+            onClick={() => setShowSeasonal(true)}
+            className="flex items-center gap-1 px-3 py-1.5 rounded-full text-sm font-medium whitespace-nowrap bg-[var(--color-surface)] text-[var(--color-text-secondary)] hover:bg-[var(--color-border)] transition-colors"
+            title="In Season"
+          >
+            <Leaf size={14} className="text-green-600" />
+            <span className="hidden sm:inline">Seasonal</span>
+          </button>
+
           {/* Book Filter */}
           {books.length > 0 && (
             <BookFilter
@@ -352,9 +363,6 @@ export default function Home() {
             />
           )}
         </div>
-
-        {/* Seasonal Suggestions */}
-        {!hasActiveFilters && <SeasonalSuggestions />}
 
         {loading ? (
           <div className="text-center text-gray-500 py-12">Loading recipes...</div>
@@ -420,6 +428,11 @@ export default function Home() {
       {/* Recently Viewed Modal */}
       {showRecentlyViewed && (
         <RecentlyViewedModal onClose={() => setShowRecentlyViewed(false)} />
+      )}
+
+      {/* Seasonal Suggestions Modal */}
+      {showSeasonal && (
+        <SeasonalSuggestionsModal onClose={() => setShowSeasonal(false)} />
       )}
     </div>
   )
