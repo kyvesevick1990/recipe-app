@@ -12,8 +12,9 @@ export default function ViewModeToggle({ viewMode, onChange }: ViewModeTogglePro
   return (
     <div className="flex items-center bg-[var(--color-surface)] border border-[var(--color-border)] rounded-lg overflow-hidden">
       <button
+        type="button"
         onClick={() => onChange('tile')}
-        className={`p-2 transition-colors ${
+        className={`p-3 min-w-[44px] min-h-[44px] flex items-center justify-center transition-colors ${
           viewMode === 'tile'
             ? 'bg-[var(--color-accent)] text-white'
             : 'text-gray-500 hover:bg-[var(--color-background)]'
@@ -23,8 +24,9 @@ export default function ViewModeToggle({ viewMode, onChange }: ViewModeTogglePro
         <LayoutGrid size={18} />
       </button>
       <button
+        type="button"
         onClick={() => onChange('list')}
-        className={`p-2 transition-colors border-l border-r border-[var(--color-border)] ${
+        className={`p-3 min-w-[44px] min-h-[44px] flex items-center justify-center transition-colors border-l border-r border-[var(--color-border)] ${
           viewMode === 'list'
             ? 'bg-[var(--color-accent)] text-white'
             : 'text-gray-500 hover:bg-[var(--color-background)]'
@@ -34,8 +36,9 @@ export default function ViewModeToggle({ viewMode, onChange }: ViewModeTogglePro
         <List size={18} />
       </button>
       <button
+        type="button"
         onClick={() => onChange('compact')}
-        className={`p-2 transition-colors ${
+        className={`p-3 min-w-[44px] min-h-[44px] flex items-center justify-center transition-colors ${
           viewMode === 'compact'
             ? 'bg-[var(--color-accent)] text-white'
             : 'text-gray-500 hover:bg-[var(--color-background)]'
