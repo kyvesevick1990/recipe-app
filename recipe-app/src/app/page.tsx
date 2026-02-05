@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { Search, Filter, Plus, X, LogOut, Heart, Shuffle, History } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 import { supabase, Recipe, RecipeBook } from '@/lib/supabase'
 import { checkAuthCookie, clearAuthCookie } from '@/lib/auth'
 import { getViewMode, setViewMode, ViewMode } from '@/lib/localStorage'
@@ -211,9 +212,16 @@ export default function Home() {
       <div className="sticky top-0 z-10 bg-[var(--color-background)] border-b border-[var(--color-border)]">
         <div className="max-w-6xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between mb-4">
-            <h1 className="text-2xl font-bold" style={{ color: 'var(--color-accent)' }}>
-              🍳 Recipes
-            </h1>
+            <Link href="/" className="block">
+              <Image
+                src="/roux-logo.png"
+                alt="Roux"
+                width={100}
+                height={50}
+                className="h-10 w-auto dark:invert"
+                priority
+              />
+            </Link>
             <div className="flex items-center gap-2">
               <button
                 onClick={handleSurpriseMe}
