@@ -12,8 +12,8 @@ type BookFilterProps = {
 
 export default function BookFilter({ books, selectedBookId, onChange, onManageBooks }: BookFilterProps) {
   return (
-    <div className="mb-4">
-      <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-hide">
+    <div className="flex-1 overflow-x-auto">
+      <div className="flex items-center gap-2 pb-2 scrollbar-hide">
         {/* "All Recipes" option */}
         <button
           onClick={() => onChange(null)}

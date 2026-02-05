@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Search, Filter, Plus, X, LogOut, Heart, Shuffle } from 'lucide-react'
+import { Search, Filter, Plus, X, LogOut, Heart, Shuffle, History } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { supabase, Recipe, RecipeBook } from '@/lib/supabase'
@@ -12,7 +12,7 @@ import RecipeCard from '@/components/RecipeCard'
 import RecipeListItem from '@/components/RecipeListItem'
 import RecipeCompactItem from '@/components/RecipeCompactItem'
 import TagFilter from '@/components/TagFilter'
-import RecentlyViewed from '@/components/RecentlyViewed'
+import RecentlyViewedModal from '@/components/RecentlyViewedModal'
 import SeasonalSuggestions from '@/components/SeasonalSuggestions'
 import ThemeToggle from '@/components/ThemeToggle'
 import ViewModeToggle from '@/components/ViewModeToggle'
@@ -54,6 +54,7 @@ export default function Home() {
   const [books, setBooks] = useState<RecipeBook[]>([])
   const [selectedBookId, setSelectedBookId] = useState<string | null>(null)
   const [showManageBooks, setShowManageBooks] = useState(false)
+  const [showRecentlyViewed, setShowRecentlyViewed] = useState(false)
 
   useEffect(() => {
     // Check if user is authenticated
@@ -324,18 +325,28 @@ export default function Home() {
 
       {/* Recipe Grid */}
       <div className="max-w-6xl mx-auto px-4 pt-6">
-        {/* Book Filter */}
-        {books.length > 0 && (
-          <BookFilter
-            books={books}
-            selectedBookId={selectedBookId}
-            onChange={setSelectedBookId}
-            onManageBooks={() => setShowManageBooks(true)}
-          />
-        )}
+        {/* Book Filter with Recently Viewed button */}
+        <div className="flex items-center gap-2 mb-4">
+          {/* Recently Viewed button */}
+          <button
+            onClick={() => setShowRecentlyViewed(true)}
+            className="flex items-center gap-1 px-3 py-1.5 rounded-full text-sm font-medium whitespace-nowrap bg-[var(--color-surface)] text-[var(--color-text-secondary)] hover:bg-[var(--color-border)] transition-colors"
+            title="Recently Viewed"
+          >
+            <History size={14} />
+            <span className="hidden sm:inline">Recent</span>
+          </button>
 
-        {/* Recently Viewed Section */}
-        {!hasActiveFilters && <RecentlyViewed />}
+          {/* Book Filter */}
+          {books.length > 0 && (
+            <BookFilter
+              books={books}
+              selectedBookId={selectedBookId}
+              onChange={setSelectedBookId}
+              onManageBooks={() => setShowManageBooks(true)}
+            />
+          )}
+        </div>
 
         {/* Seasonal Suggestions */}
         {!hasActiveFilters && <SeasonalSuggestions />}
@@ -399,6 +410,11 @@ export default function Home() {
           onClose={() => setShowManageBooks(false)}
           onBooksChanged={loadBooks}
         />
+      )}
+
+      {/* Recently Viewed Modal */}
+      {showRecentlyViewed && (
+        <RecentlyViewedModal onClose={() => setShowRecentlyViewed(false)} />
       )}
     </div>
   )
