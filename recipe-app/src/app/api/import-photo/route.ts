@@ -125,8 +125,25 @@ Return ONLY valid JSON, no other text or markdown.`
 
     // Parse the JSON response
     try {
-      const jsonMatch = responseText.match(/\{[\s\S]*\}/)
+      // Remove markdown code blocks if present
+      let cleanedResponse = responseText
+        .replace(/^```json\s*/i, '')
+        .replace(/^```\s*/i, '')
+        .replace(/\s*```$/i, '')
+        .trim()
+
+      // Try to find JSON object in the response
+      const jsonMatch = cleanedResponse.match(/\{[\s\S]*\}/)
       if (!jsonMatch) {
+        // Check if Claude said it couldn't read the image
+        if (responseText.toLowerCase().includes('cannot') ||
+            responseText.toLowerCase().includes("can't") ||
+            responseText.toLowerCase().includes('unable') ||
+            responseText.toLowerCase().includes('not able')) {
+          return NextResponse.json({
+            error: 'Could not read recipe from image. Please ensure the image is clear and contains a recipe.'
+          }, { status: 400 })
+        }
         throw new Error('No JSON found in response')
       }
 
@@ -136,7 +153,11 @@ Return ONLY valid JSON, no other text or markdown.`
     } catch (parseError) {
       console.error('JSON parse error:', parseError)
       console.error('Response was:', responseText)
-      return NextResponse.json({ error: 'Failed to parse recipe data' }, { status: 500 })
+      // Return a more helpful error with a snippet of what Claude said
+      const snippet = responseText.substring(0, 200)
+      return NextResponse.json({
+        error: `Failed to parse recipe. Claude's response: "${snippet}${responseText.length > 200 ? '...' : ''}"`
+      }, { status: 500 })
     }
 
   } catch (error) {
