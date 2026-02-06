@@ -80,7 +80,7 @@ Return ONLY valid JSON, no other text or markdown.`
       },
       body: JSON.stringify({
         model: 'claude-3-haiku-20240307',
-        max_tokens: 4000,
+        max_tokens: 8000,
         messages: [
           {
             role: 'user',
@@ -132,27 +132,43 @@ Return ONLY valid JSON, no other text or markdown.`
         .replace(/\s*```$/i, '')
         .trim()
 
-      // Try to find JSON object in the response
-      const jsonMatch = cleanedResponse.match(/\{[\s\S]*\}/)
-      if (!jsonMatch) {
-        // Check if Claude said it couldn't read the image
-        if (responseText.toLowerCase().includes('cannot') ||
-            responseText.toLowerCase().includes("can't") ||
-            responseText.toLowerCase().includes('unable') ||
-            responseText.toLowerCase().includes('not able')) {
-          return NextResponse.json({
-            error: 'Could not read recipe from image. Please ensure the image is clear and contains a recipe.'
-          }, { status: 400 })
-        }
-        throw new Error('No JSON found in response')
+      // Check if Claude said it couldn't read the image
+      if (cleanedResponse.toLowerCase().includes('cannot') ||
+          cleanedResponse.toLowerCase().includes("can't") ||
+          cleanedResponse.toLowerCase().includes('unable') ||
+          cleanedResponse.toLowerCase().includes('not able')) {
+        return NextResponse.json({
+          error: 'Could not read recipe from image. Please ensure the image is clear and contains a recipe.'
+        }, { status: 400 })
       }
 
-      const recipeData = JSON.parse(jsonMatch[0])
+      // Try to parse the cleaned response directly first
+      let recipeData
+      try {
+        recipeData = JSON.parse(cleanedResponse)
+      } catch {
+        // If direct parse fails, try to extract JSON object
+        const jsonMatch = cleanedResponse.match(/\{[\s\S]*\}/)
+        if (!jsonMatch) {
+          throw new Error('No JSON found in response')
+        }
+        recipeData = JSON.parse(jsonMatch[0])
+      }
+
       return NextResponse.json({ recipe: recipeData })
 
     } catch (parseError) {
       console.error('JSON parse error:', parseError)
       console.error('Response was:', responseText)
+
+      // Check if the response was truncated (likely max_tokens issue)
+      const stopReason = data.stop_reason
+      if (stopReason === 'max_tokens') {
+        return NextResponse.json({
+          error: 'Recipe was too long to process. Please try a simpler recipe or a clearer image.'
+        }, { status: 500 })
+      }
+
       // Return a more helpful error with a snippet of what Claude said
       const snippet = responseText.substring(0, 200)
       return NextResponse.json({
