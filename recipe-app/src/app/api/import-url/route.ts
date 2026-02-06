@@ -10,7 +10,7 @@ export async function POST(request: NextRequest) {
 
     const anthropicApiKey = process.env.ANTHROPIC_API_KEY
     if (!anthropicApiKey) {
-      return NextResponse.json({ error: 'API key not configured' }, { status: 500 })
+      return NextResponse.json({ error: 'Anthropic API key not configured. Please add ANTHROPIC_API_KEY to Vercel environment variables.' }, { status: 500 })
     }
 
     // Fetch the webpage content
@@ -102,7 +102,13 @@ ${pageContent}`
     if (!response.ok) {
       const errorText = await response.text()
       console.error('Claude API error:', errorText)
-      return NextResponse.json({ error: 'Failed to parse recipe' }, { status: 500 })
+      if (response.status === 401) {
+        return NextResponse.json({ error: 'Invalid Anthropic API key. Please check your ANTHROPIC_API_KEY in Vercel.' }, { status: 500 })
+      }
+      if (response.status === 429) {
+        return NextResponse.json({ error: 'Rate limit exceeded. Please try again in a moment.' }, { status: 429 })
+      }
+      return NextResponse.json({ error: `Failed to parse recipe (API error ${response.status})` }, { status: 500 })
     }
 
     const data = await response.json()
