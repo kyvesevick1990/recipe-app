@@ -110,23 +110,25 @@ export default function ImportRecipe({ onImport }: ImportRecipeProps) {
       {/* Import Buttons */}
       <div className="flex gap-2 mb-6">
         <button
+          type="button"
           onClick={() => {
             setImportType('url')
             setShowModal(true)
             setError(null)
           }}
-          className="btn btn-secondary flex-1"
+          className="btn btn-secondary flex-1 min-h-[44px]"
         >
           <Link2 size={18} className="mr-2" />
           Import from URL
         </button>
         <button
+          type="button"
           onClick={() => {
             setImportType('photo')
             setShowModal(true)
             setError(null)
           }}
-          className="btn btn-secondary flex-1"
+          className="btn btn-secondary flex-1 min-h-[44px]"
         >
           <Camera size={18} className="mr-2" />
           Import from Photo
@@ -142,12 +144,13 @@ export default function ImportRecipe({ onImport }: ImportRecipeProps) {
                 {importType === 'url' ? 'Import from URL' : 'Import from Photo'}
               </h3>
               <button
+                type="button"
                 onClick={() => {
                   setShowModal(false)
                   setUrl('')
                   setError(null)
                 }}
-                className="tap-target p-2 text-gray-500 hover:text-gray-700"
+                className="tap-target p-2 text-gray-500 hover:text-gray-700 min-w-[44px] min-h-[44px] flex items-center justify-center"
                 disabled={isLoading}
               >
                 <X size={20} />
@@ -180,6 +183,7 @@ export default function ImportRecipe({ onImport }: ImportRecipeProps) {
                   Paste a URL from any recipe website. The recipe will be automatically extracted and you can review before saving.
                 </p>
                 <button
+                  type="button"
                   onClick={handleUrlImport}
                   disabled={!url.trim() || isLoading}
                   className="btn btn-primary w-full"
@@ -196,19 +200,27 @@ export default function ImportRecipe({ onImport }: ImportRecipeProps) {
               </div>
             ) : (
               <div className="space-y-4">
-                <div
-                  className="border-2 border-dashed border-[var(--color-border)] rounded-lg p-8 text-center hover:border-[var(--color-accent)] transition-colors cursor-pointer"
-                  onClick={() => {
-                    const input = document.createElement('input')
-                    input.type = 'file'
-                    input.accept = 'image/*'
-                    input.capture = 'environment'
-                    input.onchange = (e) => {
-                      const file = (e.target as HTMLInputElement).files?.[0]
-                      if (file) handlePhotoImport(file)
-                    }
-                    input.click()
+                {/* Hidden file input */}
+                <input
+                  type="file"
+                  id="photo-upload"
+                  accept="image/*"
+                  capture="environment"
+                  className="sr-only"
+                  disabled={isLoading}
+                  onChange={(e) => {
+                    const file = e.target.files?.[0]
+                    if (file) handlePhotoImport(file)
+                    // Reset input so same file can be selected again
+                    e.target.value = ''
                   }}
+                />
+
+                {/* Clickable label for file input */}
+                <label
+                  htmlFor="photo-upload"
+                  className="block border-2 border-dashed border-[var(--color-border)] rounded-lg p-8 text-center hover:border-[var(--color-accent)] active:border-[var(--color-accent)] transition-colors cursor-pointer"
+                  style={{ touchAction: 'manipulation', WebkitTapHighlightColor: 'transparent' }}
                 >
                   {isLoading ? (
                     <div className="flex flex-col items-center gap-2">
@@ -216,7 +228,7 @@ export default function ImportRecipe({ onImport }: ImportRecipeProps) {
                       <span className="text-sm text-gray-500">Processing image...</span>
                     </div>
                   ) : (
-                    <div className="flex flex-col items-center gap-2">
+                    <div className="flex flex-col items-center gap-2 pointer-events-none">
                       <Camera size={32} className="text-[var(--color-accent)]" />
                       <span className="text-sm text-gray-600">
                         <span className="text-[var(--color-accent)] font-medium">Take a photo</span>
@@ -227,7 +239,7 @@ export default function ImportRecipe({ onImport }: ImportRecipeProps) {
                       </span>
                     </div>
                   )}
-                </div>
+                </label>
                 <p className="text-xs text-gray-500">
                   Take a photo of a recipe from a cookbook, magazine, or handwritten card. The text will be automatically extracted.
                 </p>
