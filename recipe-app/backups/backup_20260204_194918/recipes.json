@@ -1,0 +1,5537 @@
+[
+  {
+    "id": "0dbc1f9f-bd14-46d0-ade4-a3abcb1049f6",
+    "title": "Pork Chile Verde",
+    "servings": 8,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/0dbc1f9f-bd14-46d0-ade4-a3abcb1049f6.jpeg"
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 30,
+    "total_time_minutes": 40,
+    "source": null,
+    "notes": null,
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Braised"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mexican"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:34:13.10956+00:00",
+    "updated_at": "2026-02-05T01:59:12.008048+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "3b1513ca-ac7c-4333-a0c3-d4746af8192c",
+    "title": "Steak (Reverse-Seared)",
+    "servings": 2,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/3b1513ca-ac7c-4333-a0c3-d4746af8192c.jpeg"
+    ],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 45,
+    "total_time_minutes": 50,
+    "source": null,
+    "notes": null,
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Roasted",
+        "Seared"
+      ],
+      "source": [],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Beef"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:34:43.225385+00:00",
+    "updated_at": "2026-02-05T01:59:12.639553+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "d32ce423-de67-4f78-8fbb-3036bdba1af5",
+    "title": "Steak (Pan Seared, Butter Basted)",
+    "servings": 3,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/d32ce423-de67-4f78-8fbb-3036bdba1af5.jpeg"
+    ],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 80,
+    "source": null,
+    "notes": null,
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Beef"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:34:54.712923+00:00",
+    "updated_at": "2026-02-05T01:59:12.991294+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "30b816c5-f969-4c9a-9c29-e8fb09994423",
+    "title": "Beef Bulgogi Bowls",
+    "servings": 6,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/30b816c5-f969-4c9a-9c29-e8fb09994423.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 105,
+    "source": null,
+    "notes": "Don't blend carrots or green onion into marinade. Don't go heavy on the pear. Extra soy (maybe a touch of dark soy?) can help with caramelization in pan. Marinate for at least 1 hour, preferably overnight.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "Korean"
+      ],
+      "protein": [
+        "Beef"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:35:13.953938+00:00",
+    "updated_at": "2026-02-05T01:59:13.341953+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "8e1b8ee2-b704-42b6-b376-11808874189f",
+    "title": "Peruvian-Style Grilled Chicken With Aji Amarillo Green Sauce",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/8e1b8ee2-b704-42b6-b376-11808874189f.jpeg"
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 85,
+    "total_time_minutes": 95,
+    "source": "Peruvian-Style Grilled Chicken With Aji Amarillo Green Sauce.pdf",
+    "notes": "Sauce will thicken as it sits. For added stability, run a skewer horizontally through chicken.",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Grilled"
+      ],
+      "source": [],
+      "cuisine": [
+        "Peruvian"
+      ],
+      "protein": [
+        "Chicken"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:35:35.548709+00:00",
+    "updated_at": "2026-02-05T01:59:13.6658+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "bb9e6c26-8494-444f-b531-0d1156681be9",
+    "title": "Comforting Cabbage, Onion, and Farro Soup",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/bb9e6c26-8494-444f-b531-0d1156681be9.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 70,
+    "total_time_minutes": 90,
+    "source": null,
+    "notes": "This soup has a definite grandma vibe-warm, comforting, nourishing, and maybe just the tiniest bit old-fashioned, which is what you want on a cold or drizzly day.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:35:51.721054+00:00",
+    "updated_at": "2026-02-05T01:59:14.009534+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "dd6743ab-d3a6-4824-8862-21e6d913a0a6",
+    "title": "Patty Melt",
+    "servings": 2,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/dd6743ab-d3a6-4824-8862-21e6d913a0a6.jpeg"
+    ],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 35,
+    "total_time_minutes": 40,
+    "source": null,
+    "notes": null,
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Fried",
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Beef"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:36:07.405601+00:00",
+    "updated_at": "2026-02-05T01:59:14.440096+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "022f9ada-a064-43cf-887d-86e2299f9d6a",
+    "title": "Korean Grilled Steak with Toasted Sesame Chimichurri",
+    "servings": 6,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/022f9ada-a064-43cf-887d-86e2299f9d6a.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 30,
+    "source": null,
+    "notes": null,
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Grilled"
+      ],
+      "source": [],
+      "cuisine": [
+        "Korean"
+      ],
+      "protein": [
+        "Beef"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:36:22.910157+00:00",
+    "updated_at": "2026-02-05T01:59:14.776546+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "3af40a79-79c2-494d-9b4b-7f5f836a455e",
+    "title": "Suan Cai Yu (Sichuan Fish with Pickled Mustard Greens)",
+    "servings": 2,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/3af40a79-79c2-494d-9b4b-7f5f836a455e.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 35,
+    "source": null,
+    "notes": null,
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "Chinese"
+      ],
+      "protein": [
+        "Seafood"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:37:00.101266+00:00",
+    "updated_at": "2026-02-05T01:59:15.453248+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "73c7f4a6-680b-49a4-bd4d-76b11baa214d",
+    "title": "Prosciutto Wrapped Pork Tenderloin",
+    "servings": 8,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/73c7f4a6-680b-49a4-bd4d-76b11baa214d.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 62,
+    "total_time_minutes": 92,
+    "source": null,
+    "notes": "Let rest for 20 minutes before slicing. Internal temperature should reach 140°F.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Roasted"
+      ],
+      "source": [],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:44:35.223085+00:00",
+    "updated_at": "2026-02-05T01:59:23.846233+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "fe406086-7600-4f35-b27d-9769ed70dd0e",
+    "title": "Chocolate-Coated Oat, Date, Cashew Bars",
+    "servings": 36,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/fe406086-7600-4f35-b27d-9769ed70dd0e.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 130,
+    "source": null,
+    "notes": "Slightly chewier than most granola bars, these power treats get their appealing texture and deep toffee-like flavor from dates. Look for Medjool dates, which are usually very moist and sticky. You can use store-bought roasted cashews and hazelnuts, if you have them; simply skip the toasting step (but do toast the oats). Makes thirty-six 1x3-inch (2.5 x 7.5 cm) bars",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Baked"
+      ],
+      "source": [],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Dessert",
+        "Snack"
+      ]
+    },
+    "created_at": "2026-02-04T21:32:44.901624+00:00",
+    "updated_at": "2026-02-05T01:59:34.829809+00:00",
+    "wine_pairing": null,
+    "book_id": "cf44f483-9c09-458d-8a88-1f163ef3797c"
+  },
+  {
+    "id": "ec5579b1-320a-4ae6-9e3f-d3f9fe844299",
+    "title": "Roasted Brussels Sprouts With Kimchi and Ginger",
+    "servings": 6,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/ec5579b1-320a-4ae6-9e3f-d3f9fe844299.jpeg"
+    ],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 25,
+    "source": null,
+    "notes": null,
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Roasted"
+      ],
+      "source": [],
+      "cuisine": [
+        "Korean"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side",
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:33:14.367966+00:00",
+    "updated_at": "2026-02-05T01:59:39.913486+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "624f5ba7-ce09-4674-ba38-37e435a84474",
+    "title": "Beef Stroganoff",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/624f5ba7-ce09-4674-ba38-37e435a84474.jpeg"
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 45,
+    "total_time_minutes": 55,
+    "source": "Beef Stroganoff.pdf",
+    "notes": "Dry age beef in fridge overnight. Advise guests to remove large thyme sprigs as they find them.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Beef"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:33:36.134411+00:00",
+    "updated_at": "2026-02-05T01:59:11.309937+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "782c4fa8-ff2a-42f9-844a-3903bd0aa782",
+    "title": "Spaghetti with Small Tomatoes, Garlic, Basil, and Chiles",
+    "servings": 2,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/782c4fa8-ff2a-42f9-844a-3903bd0aa782.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 25,
+    "total_time_minutes": 40,
+    "source": null,
+    "notes": "You want a nice toasted piece of garlic that you smash into the sauce. Have a lid handy when adding tomatoes as they will sizzle and spatter.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:38:01.039425+00:00",
+    "updated_at": "2026-02-05T01:59:16.463014+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "85d9b0cc-2341-4660-afac-d20afbb99d95",
+    "title": "Stir-Fried Pork with Leeks",
+    "servings": 2,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/85d9b0cc-2341-4660-afac-d20afbb99d95.jpeg"
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 25,
+    "source": null,
+    "notes": null,
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Stir-Fried"
+      ],
+      "source": [],
+      "cuisine": [
+        "Chinese"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:39:00.087489+00:00",
+    "updated_at": "2026-02-05T01:59:17.861987+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "cc1096d0-6a4c-4fd5-9cd2-35e496a54ee1",
+    "title": "Red Beans and Rice",
+    "servings": 8,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/cc1096d0-6a4c-4fd5-9cd2-35e496a54ee1.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 665,
+    "total_time_minutes": 685,
+    "source": null,
+    "notes": "For best texture, let cool and refrigerate overnight. Reheat the next day, adding a little water to loosen to desired consistency.",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Braised",
+        "Slow-Cooked"
+      ],
+      "source": [],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:39:34.822602+00:00",
+    "updated_at": "2026-02-05T01:59:18.564953+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "0bb9ef49-4ca3-408b-b8ac-c12dd91c004d",
+    "title": "Chinese Beef and Broccoli",
+    "servings": 2,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/0bb9ef49-4ca3-408b-b8ac-c12dd91c004d.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 35,
+    "source": "Six Seasons",
+    "notes": "There's nothing Chinese about this dish, other than that it reminds me of the takeout treat of my youth. The vinaigrette (which lasts in the fridge for weeks) is good on just about anything, including pork, sausages, and lots and lots of vegetables, so I'm pretty sure you'll be keeping a batch on hand. Once you've made the vinaigrette, putting this dish together takes literally 15 minutes.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Beef"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:39:47.100724+00:00",
+    "updated_at": "2026-02-05T01:59:18.875077+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "d09fc94c-ab81-4f4f-a7c6-106aafe0051d",
+    "title": "Steak Cheeseburgers",
+    "servings": 5,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/d09fc94c-ab81-4f4f-a7c6-106aafe0051d.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 45,
+    "source": "Sean Brock",
+    "notes": "Something as ordinary as a cheeseburger can present a surprising number of variables to consider. This recipe uses the smash burger technique - portion meat into balls, season heavily with salt and pepper, and smash hard with spatula onto hot griddle. The key is to leave the burger alone after smashing to develop a crunchy crust. Always grind the meat yourself using a mix of chuck and flank steak for best freshness, or have butcher do it the day you plan to make burgers.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Grilled"
+      ],
+      "source": [
+        "Sean Brock"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Beef"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:40:09.557175+00:00",
+    "updated_at": "2026-02-05T01:59:19.217045+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "18d87b44-3828-4dd7-8e8d-8616b8f7c37a",
+    "title": "Thai Boxing Chicken",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/18d87b44-3828-4dd7-8e8d-8616b8f7c37a.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 10,
+    "total_time_minutes": 210,
+    "source": "Thai Boxing Chicken.pdf",
+    "notes": "Marinate for 3 hours or overnight for stronger flavor. Serve with sticky rice, papaya salad, jaew, and sweet chile sauce.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Grilled"
+      ],
+      "source": [],
+      "cuisine": [
+        "Thai"
+      ],
+      "protein": [
+        "Chicken"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:40:22.423837+00:00",
+    "updated_at": "2026-02-05T01:59:19.538271+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "304907d8-1569-4d4b-ad27-a658434eabcc",
+    "title": "BBQ Pulled Pork & Cabbage Slaw",
+    "servings": 6,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/304907d8-1569-4d4b-ad27-a658434eabcc.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 360,
+    "total_time_minutes": 390,
+    "source": null,
+    "notes": "Refrigerate BBQ sauce for at least 3 hours to allow flavors to meld. Overnight is better.",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Braised",
+        "Slow-Cooked"
+      ],
+      "source": [
+        "BBQ"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:40:47.642956+00:00",
+    "updated_at": "2026-02-05T01:59:19.869211+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "798e195d-feac-47d1-96f7-f407daff34b4",
+    "title": "Vietnamese Grilled Pork Chops",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/798e195d-feac-47d1-96f7-f407daff34b4.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 90,
+    "source": null,
+    "notes": null,
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Grilled"
+      ],
+      "source": [],
+      "cuisine": [
+        "Vietnamese"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:38:15.340934+00:00",
+    "updated_at": "2026-02-05T01:59:16.804804+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "c602a5f9-e635-414e-aebc-850ae5190c54",
+    "title": "Lamb Ragu with Carrots and Green Garlic",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/c602a5f9-e635-414e-aebc-850ae5190c54.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 60,
+    "total_time_minutes": 80,
+    "source": "Six Seasons",
+    "notes": "Here the carrots don't stand out on their own but rather melt and merge into a sweet and mellow foundation for the ragu. If you can't find green garlic, you can use regular head garlic (if you do, you'll only need 5 or 6 cloves because it's so much more pungent).",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Braised"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Lamb"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:38:47.656205+00:00",
+    "updated_at": "2026-02-05T01:59:17.507978+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "5608e866-0197-49c1-9fce-7afa1b1cd5e7",
+    "title": "Super Grain and Veggie Burgers",
+    "servings": 12,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/5608e866-0197-49c1-9fce-7afa1b1cd5e7.jpeg"
+    ],
+    "prep_time_minutes": 45,
+    "cook_time_minutes": 75,
+    "total_time_minutes": 120,
+    "source": "Grains For Every Season",
+    "notes": "Yes, this recipe does have a long list of ingredients and several steps... don't start making these burgers 20 minutes before you want to eat. The good news is that the recipe makes a dozen burgers and they freeze beautifully, so an hour spent prepping yields future meals for days. I wrap each burger individually— uncooked-so that I can just pull out as many as I want to cook. Thaw the frozen burgers before cooking; ideally, leave them in the fridge overnight, but you can thaw them on the counter to speed things up if need be. Makes twelve 4-ounce (115 g) burgers",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Grains For Every Season"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:42:11.465139+00:00",
+    "updated_at": "2026-02-05T01:59:21.160491+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "427b8863-4341-46b3-a701-6364c202b928",
+    "title": "Cauliflower Ragu",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/427b8863-4341-46b3-a701-6364c202b928.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 50,
+    "total_time_minutes": 65,
+    "source": "Six Seasons",
+    "notes": "I think of this dish as one of my sleeper recipes-it's not super sexy on paper, but it is surprisingly delicious and crowd-pleasing. Part of the appeal comes from adding the cauliflower in two batches-the first addition becomes meltingly tender and breaks down through the long cooking. The second addition holds on to a bit of its fresh texture and flavor, forming a flavor \"chord.\" Another key is to finish cooking the pasta in the ragu, so that it soaks up some of the sauce. And be sure to season this well!",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Braised"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:42:29.289387+00:00",
+    "updated_at": "2026-02-05T01:59:21.514676+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "bf3ec7d0-04d2-409b-b54b-0924b7d50e9a",
+    "title": "Mushrooms, Sausage, and Rigatoni",
+    "servings": 3,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/bf3ec7d0-04d2-409b-b54b-0924b7d50e9a.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 25,
+    "total_time_minutes": 40,
+    "source": "Six Seasons",
+    "notes": "As a kid, I used to pick off the mushrooms from the mushroom and fennel-sausage pizza that would hit the family dinner table. So while I didn't eat the mushrooms back then, I was imprinted by the flavor combination. Get all your ingredients prepped before you start cooking this dish so that by the time the pasta is cooked, you are ready for action.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:42:45.165154+00:00",
+    "updated_at": "2026-02-05T01:59:21.847812+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "c4f18c2f-d542-46a3-a7f6-8c0fdde94f4d",
+    "title": "Pad Gra Pow",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/c4f18c2f-d542-46a3-a7f6-8c0fdde94f4d.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 10,
+    "total_time_minutes": 25,
+    "source": null,
+    "notes": "Serve over rice with fried egg",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Stir-Fried"
+      ],
+      "source": [],
+      "cuisine": [
+        "Thai"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:43:00.247999+00:00",
+    "updated_at": "2026-02-05T01:59:22.167283+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "24360e80-a920-4ab4-8e6a-05e9f5110f34",
+    "title": "Mushrooms with Sausage, Spicy Chiles, and Burrata",
+    "servings": 3,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/24360e80-a920-4ab4-8e6a-05e9f5110f34.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 25,
+    "total_time_minutes": 40,
+    "source": null,
+    "notes": "This may be my favorite type of pasta—one that has all the hearty and familiar flavors of a sausage-and-mushroom pizza. I'm leveling up with the addition of a ball of burrata, a form of fresh mozzarella that has a super-creamy center. Cutting a ball of burrata into two portions risks the filling spilling out, so place the burrata in a big serving bowl or on a platter, pile the hot pasta on top, and then let diners scoop out their own portions, including a few spoonfuls of the gooey cheese. (If you can't find burrata, use fresh mozzarella torn into large shreds.)",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:44:01.279224+00:00",
+    "updated_at": "2026-02-05T01:59:23.182495+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "4416c3df-7f08-472f-a567-8b00d90b27d7",
+    "title": "Meatballs",
+    "servings": 15,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/4416c3df-7f08-472f-a567-8b00d90b27d7.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 35,
+    "source": "Bianco",
+    "notes": "This recipe yields meatballs the size of Ping-Pong balls. I like them this size for a sandwich because they are nice and hefty without being too cumbersome to get your mouth around. But if you are making these for another dish, such as a pasta, or as a snack in their own right, you may want to make them a different size. Determine what size is the most appropriate for your needs.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed",
+        "Baked"
+      ],
+      "source": [
+        "Bianco"
+      ],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [
+        "Beef",
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:44:19.501496+00:00",
+    "updated_at": "2026-02-05T01:59:23.525161+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "8c6abd5f-f6f3-4f7f-8b28-3090a7978276",
+    "title": "Vignole",
+    "servings": 5,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/8c6abd5f-f6f3-4f7f-8b28-3090a7978276.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 40,
+    "total_time_minutes": 70,
+    "source": "Six Seasons",
+    "notes": "This is my straightforward interpretation of a classic Roman springtime dish, in which a handful of spring vegetables are gently stewed together until they have lost their bright green color... but not their green flavor. Asparagus and fava beans are typical, and I like to add whatever else looks good at that time-English peas, sugar snaps, spring onions. Vignole is fantastic the second day because all those flavors have had a chance to develop. And it's great with some short pasta, such as ditalini, or some farro stirred in. Don't forget the grilled bread on the side and a drizzle of olive oil.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Braised"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:41:46.383417+00:00",
+    "updated_at": "2026-02-05T01:59:20.828757+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "6526675b-8095-49ce-ac06-6cb7a9fa33de",
+    "title": "Pork Vermicelli Bowls",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/6526675b-8095-49ce-ac06-6cb7a9fa33de.jpeg"
+    ],
+    "prep_time_minutes": 25,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 40,
+    "source": "Pork Vermicelli Bowls.pdf",
+    "notes": null,
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Stir-Fried"
+      ],
+      "source": [],
+      "cuisine": [
+        "Vietnamese"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:43:39.786986+00:00",
+    "updated_at": "2026-02-05T01:59:22.837026+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "588de3cb-61eb-435e-b7f6-487edde733c8",
+    "title": "Beef Chow Fun",
+    "servings": 2,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/588de3cb-61eb-435e-b7f6-487edde733c8.jpeg"
+    ],
+    "prep_time_minutes": 60,
+    "cook_time_minutes": 5,
+    "total_time_minutes": 65,
+    "source": null,
+    "notes": null,
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Stir-Fried"
+      ],
+      "source": [],
+      "cuisine": [
+        "Chinese"
+      ],
+      "protein": [
+        "Beef"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:45:51.292486+00:00",
+    "updated_at": "2026-02-05T01:59:25.178625+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "08ca0252-0998-4567-a00b-e9d187a3f7ff",
+    "title": "Carne Asada",
+    "servings": 6,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/08ca0252-0998-4567-a00b-e9d187a3f7ff.jpeg"
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 25,
+    "total_time_minutes": 755,
+    "source": "Carne Asada.pdf",
+    "notes": "Marinate for at least 3 hours or up to 12 hours for best flavor. Reserve half the salsa for serving.",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Grilled"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mexican"
+      ],
+      "protein": [
+        "Beef"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:46:11.896642+00:00",
+    "updated_at": "2026-02-05T01:59:25.508607+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "e0cdafd6-ce71-4bb5-af4f-0f406ea458f9",
+    "title": "Chicken Pot Pie with Leeks and Thyme",
+    "servings": 6,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/e0cdafd6-ce71-4bb5-af4f-0f406ea458f9.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 50,
+    "total_time_minutes": 70,
+    "source": "Chicken Pot Pie with Leeks and Thyme.pdf",
+    "notes": null,
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Baked"
+      ],
+      "source": [],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Chicken"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:46:29.995592+00:00",
+    "updated_at": "2026-02-05T01:59:25.825004+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "86f811cf-5aa0-4d5d-a4fc-694e42002379",
+    "title": "Carnitas, Crispy",
+    "servings": 6,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/86f811cf-5aa0-4d5d-a4fc-694e42002379.jpeg"
+    ],
+    "prep_time_minutes": 25,
+    "cook_time_minutes": 270,
+    "total_time_minutes": 275,
+    "source": "Kenji",
+    "notes": "Spend at least 45 mins at 195-200F",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Braised",
+        "Roasted"
+      ],
+      "source": [
+        "Kenji"
+      ],
+      "cuisine": [
+        "Mexican"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:46:43.904404+00:00",
+    "updated_at": "2026-02-05T01:59:26.143788+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "98778515-2862-4f6e-a174-8eb3e3ecc653",
+    "title": "Lemongrass Pork Banh Mi",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/98778515-2862-4f6e-a174-8eb3e3ecc653.jpeg"
+    ],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 10,
+    "total_time_minutes": 15,
+    "source": null,
+    "notes": "Allow pork to marinate for at least 30 minutes before cooking.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Grilled"
+      ],
+      "source": [],
+      "cuisine": [
+        "Vietnamese"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner",
+        "Lunch"
+      ]
+    },
+    "created_at": "2026-02-04T21:47:01.02523+00:00",
+    "updated_at": "2026-02-05T01:59:26.445493+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "d25c7fc4-b771-4149-ad71-bba8d5f09e39",
+    "title": "Greek-Style Grilled Chicken",
+    "servings": 6,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/d25c7fc4-b771-4149-ad71-bba8d5f09e39.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 55,
+    "total_time_minutes": 75,
+    "source": null,
+    "notes": null,
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Grilled"
+      ],
+      "source": [],
+      "cuisine": [
+        "Greek",
+        "Mediterranean"
+      ],
+      "protein": [
+        "Chicken"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:47:24.431372+00:00",
+    "updated_at": "2026-02-05T01:59:26.767237+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "b22cec0b-0cc9-4236-b4c9-34c6c69096e6",
+    "title": "Miso Glazed Salmon",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/b22cec0b-0cc9-4236-b4c9-34c6c69096e6.jpeg"
+    ],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 5,
+    "total_time_minutes": 40,
+    "source": "Miso Glazed Salmon.pdf",
+    "notes": null,
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Grilled"
+      ],
+      "source": [],
+      "cuisine": [
+        "Japanese"
+      ],
+      "protein": [
+        "Seafood"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:47:34.543329+00:00",
+    "updated_at": "2026-02-05T01:59:27.112999+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "b5e23278-17e2-4c84-8d36-cde7e90d7529",
+    "title": "Herbed Chicken Noodle Soup",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/b5e23278-17e2-4c84-8d36-cde7e90d7529.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 25,
+    "total_time_minutes": 40,
+    "source": null,
+    "notes": null,
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Chicken"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:47:52.977555+00:00",
+    "updated_at": "2026-02-05T01:59:27.455488+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "2d745aac-04a9-4a3b-abb9-f5ec0d7d9923",
+    "title": "Short Rib Ragu with Black Peppercorns",
+    "servings": 10,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/2d745aac-04a9-4a3b-abb9-f5ec0d7d9923.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 180,
+    "total_time_minutes": 210,
+    "source": null,
+    "notes": "This ragu is a play on peposa, a Tuscan beef dish with a long history and a lot of black pepper. The whole black peppercorns become tender during the long simmer and provide pops of pepper heat. The vegetables are finely chopped in a food processor to melt into the sauce. Works best with curled noodle shapes like gemelli or rotini. Can be refrigerated up to 5 days or frozen up to 4 months.",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Braised"
+      ],
+      "source": [],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [
+        "Beef"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:49:03.237293+00:00",
+    "updated_at": "2026-02-05T01:59:28.507388+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "95103133-1083-4dba-af53-5d5dc2500bcb",
+    "title": "Kalbi Short Ribs",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/95103133-1083-4dba-af53-5d5dc2500bcb.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 8,
+    "total_time_minutes": 28,
+    "source": null,
+    "notes": "Flanken or kalbi short ribs are cut across the bone in thin pieces, with sections of bone attached. It should look like some kind of amazing avant garde. Have the butcher do it. Marinate for at least 4 hours, but 12 to 24 hours is better!",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Grilled"
+      ],
+      "source": [],
+      "cuisine": [
+        "Korean"
+      ],
+      "protein": [
+        "Beef"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:49:22.47909+00:00",
+    "updated_at": "2026-02-05T01:59:28.820473+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "f6c62530-1a5f-4931-83c4-0a62922f7b6c",
+    "title": "Stir Fry Sauce",
+    "servings": 10,
+    "photo_urls": [],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": null,
+    "total_time_minutes": 5,
+    "source": "Night + Market",
+    "notes": "At Night + Market we make large batches of what I call stir-fry sauce, a stupidly simple sweet and salty mixture stashed next to the wok in squeeze bottles. We use it to season noodles, fried rice, vegetables, or anything else that goes into the wok. I recommend taking a minute to make it after you hit the supermarket so it's ready once you start cooking-having everything prepped and ready is half the battle with wok recipes. Keeps in an airtight container indefinitely.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Night + Market"
+      ],
+      "cuisine": [
+        "Thai"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:55:41.346567+00:00",
+    "updated_at": "2026-02-05T01:59:58.663917+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  },
+  {
+    "id": "7f09efc1-b112-4488-bad8-5a991c3f9ef4",
+    "title": "Lamb Barbacoa",
+    "servings": 12,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/7f09efc1-b112-4488-bad8-5a991c3f9ef4.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 240,
+    "total_time_minutes": 270,
+    "source": null,
+    "notes": "Avocado leaves are in the laurel family and provide an anise-like flavor that's essential to authentic Oaxacan barbacoa. They can be found at Mexican and Asian markets or online vendors. The traditional method involves cooking underground over embers, but a low-temperature oven works well. Serve with olives and Salsa Borracha for authentic flavor.",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Braised"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mexican"
+      ],
+      "protein": [
+        "Lamb"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:45:33.408395+00:00",
+    "updated_at": "2026-02-05T01:59:24.833118+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "97eaa184-ce41-4931-84f7-18726cf37872",
+    "title": "Pastrami & Cabbage Mustard Salsa",
+    "servings": 12,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/97eaa184-ce41-4931-84f7-18726cf37872.jpeg"
+    ],
+    "prep_time_minutes": 60,
+    "cook_time_minutes": 360,
+    "total_time_minutes": 420,
+    "source": null,
+    "notes": "If Mexican colonists laid down roots among the Old World delicatessens of New York City, I like to imagine that this is the bastard taco they'd cook. A multi-day brine plus a 6-hour low-and-slow roast means this dish takes advance planning. But the longer you let the pastrami cure-three days is the minimum, but a week is ideal— the better chance you have at yielding insanely tender, well-seasoned meat permeated with the flavors of brown sugar and honey. The extra time pays off in shreds of coriander-scented pastrami, cut with tart pickled cabbage and mustard seeds.",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Braised"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mexican"
+      ],
+      "protein": [
+        "Beef"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:50:28.179644+00:00",
+    "updated_at": "2026-02-05T01:59:29.85683+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "12005032-7109-4978-9109-e827894a52b6",
+    "title": "Pasta Carbonara with English Peas",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 35,
+    "source": "Six Seasons",
+    "notes": "Adding peas to a carbonara is by no means classically Italian, though the combination of black pepper, pancetta, and peas is. I barely cook the peas-a quick blanching in the pasta cooking water right before you pull the pasta is all it takes. Instead of (or in addition to) the peas, you could use asparagus or thinly sliced sugar snap peas. This dish does not wait.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "Italian",
+        "American"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:50:46.72829+00:00",
+    "updated_at": "2026-02-05T01:59:30.162398+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "f0453e70-c664-487d-a97e-ef0d4c5dd432",
+    "title": "Baked Ziti with Broccoli Rabe",
+    "servings": 7,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/f0453e70-c664-487d-a97e-ef0d4c5dd432.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 50,
+    "total_time_minutes": 70,
+    "source": null,
+    "notes": "Most baked ziti recipes use a meat sauce, but this vegetarian version gets plenty of \"meaty\" texture from broccoli rabe. Broccoli rabe, also called rapini, is a sturdy green that looks a bit like scraggly broccoli. The flavor is assertive, and a bit bitter, but plenty of cheese will balance the flavor. Make the dish heartier by using 6 cups Beef and Pork Ragu or a double recipe of Sausage Ragu instead of the marinara.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Baked"
+      ],
+      "source": [],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:51:46.005303+00:00",
+    "updated_at": "2026-02-05T01:59:31.145818+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "510c5667-04d7-4b98-a904-8837e40ef080",
+    "title": "Chicken Dan Dan Noodles",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/510c5667-04d7-4b98-a904-8837e40ef080.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 390,
+    "total_time_minutes": 420,
+    "source": null,
+    "notes": "Dan dan noodles are actually a Chinese dish, but they're a mainstay of the Ivan Ramen menu. This is an Otaku dish that takes a bit more work than most - some careful shopping and slow cooking are required. You use a whole chicken to make the broth (there will be too much broth, but there's no way to make a smaller batch). You'll need shiro shoyu (white soy sauce) from an Asian market, brown rice vinegar from a boutique grocery store, and fresh noodles. The recipe is divided into three parts: the broth, the tare (seasoning sauce), and the chicken topping. You can make the first two components in advance.",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Slow-Cooked"
+      ],
+      "source": [],
+      "cuisine": [
+        "Chinese"
+      ],
+      "protein": [
+        "Chicken"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:52:13.165804+00:00",
+    "updated_at": "2026-02-05T01:59:31.510607+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "398d2be4-afb9-4bc5-8f24-fa27b3a6b60e",
+    "title": "Roasted Chile Powder",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 10,
+    "total_time_minutes": 15,
+    "source": "Night+Market",
+    "notes": "You can't talk about Thai flavors without mentioning the spicy punch of roasted chile powder. Its inclusion is nonnegotiable. And since the fresh stuff is far brighter and more fragrant than anything found in a bag, I consider this a situation where you'll want to make it yourself. It's that important. The key to roasting chiles is maintaining the correct heat level. The flame should be low enough so the chiles don't burn, but high enough so that the chiles darken and develop flavor. The sweet spot is when you end up with a dark red color and a powerful fruity aroma. Once you've roasted the chiles but before you've pulverized them, you can set a portion aside to make a simple chile oil, which can be served with Thai Dim Sum or used as a topping for khao soi (Chiang Mai Curry Noodles).",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Roasted"
+      ],
+      "source": [
+        "Night+Market"
+      ],
+      "cuisine": [
+        "Thai"
+      ],
+      "protein": [
+        "Vegan"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:55:49.854987+00:00",
+    "updated_at": "2026-02-05T01:59:59.004135+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  },
+  {
+    "id": "0535c550-5ffd-477b-b2b5-041bcc7552bd",
+    "title": "Startled Pig (Moo Sadoong)",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/0535c550-5ffd-477b-b2b5-041bcc7552bd.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 5,
+    "total_time_minutes": 20,
+    "source": null,
+    "notes": "The roughly translated name for this grilled pork salad comes from the idea that you are heaping so many aggressive flavors onto a burnt hunk of meat, you're \"startling\" the pig. It packs pretty much everything that makes Isaan food so addictive and intense into a single plate-spicy, sour, pungent, smoky. The key to this dish is to get a very aggressive char on your pork in order to maximize flavor. Don't use tenderloin or any lean cut-use a thick steak of pork shoulder, which is well marbled and easy to find. This is traditionally eaten with plain sticky rice, but also goes well with Coconut Sticky Rice.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Grilled"
+      ],
+      "source": [],
+      "cuisine": [
+        "Thai"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:50:03.150749+00:00",
+    "updated_at": "2026-02-05T01:59:29.526254+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "08e30c2f-18a4-4c37-8ebd-91b4cd4cb55f",
+    "title": "Beef and Pork Ragu",
+    "servings": 12,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/08e30c2f-18a4-4c37-8ebd-91b4cd4cb55f.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 180,
+    "total_time_minutes": 210,
+    "source": null,
+    "notes": "Beef and pork can be fatty, so I like to make this meat sauce at least 1 day ahead, chill it overnight, and then spoon off the solidified fat. The finished ragu has a slightly chunkier texture than a classic ragu Bolognese, but you can use it in much the same way—on wide egg noodles such as pappardelle or in a lasagna. For any of these beef-forward ragus, salt your beef up to a day ahead to enhance the beefy flavor.",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Braised"
+      ],
+      "source": [],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [
+        "Beef",
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner",
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:51:28.584396+00:00",
+    "updated_at": "2026-02-05T01:59:30.827061+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "66d9be09-6260-4d7f-9fcc-510bd4411997",
+    "title": "Simple Roast Pork Tenderloin",
+    "servings": 6,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/66d9be09-6260-4d7f-9fcc-510bd4411997.jpeg"
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 25,
+    "total_time_minutes": 35,
+    "source": null,
+    "notes": null,
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Roasted"
+      ],
+      "source": [],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:53:42.457324+00:00",
+    "updated_at": "2026-02-05T01:59:33.128867+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "fbaa8f46-d0ad-417d-aade-57cb0cbdbe5d",
+    "title": "Freekeh Falafel",
+    "servings": 6,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/fbaa8f46-d0ad-417d-aade-57cb0cbdbe5d.jpeg"
+    ],
+    "prep_time_minutes": 45,
+    "cook_time_minutes": 35,
+    "total_time_minutes": 80,
+    "source": null,
+    "notes": "Freekeh originated in the Middle East, as did falafel, so I thought why not marry the two for a falafel with some added texture and slightly smoky flavor? I like to serve these stuffed in a pita as a sandwich, but also on top of a big salad full of chopped cucumbers, tomato, celery, and crisp lettuce, or maybe in a grain bowl, dressed with some Spicy Creamy Green Sauce. Makes about 2 dozen 2-inch (5 cm) falafels, serves 4 to 6",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Fried"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Dinner",
+        "Lunch"
+      ]
+    },
+    "created_at": "2026-02-04T21:54:05.359647+00:00",
+    "updated_at": "2026-02-05T01:59:33.450848+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "69b6a7e6-5a77-4ded-abe0-e5a3eb197a57",
+    "title": "Meat Loaf with Barley and Mushrooms",
+    "servings": 8,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/69b6a7e6-5a77-4ded-abe0-e5a3eb197a57.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 75,
+    "total_time_minutes": 105,
+    "source": null,
+    "notes": "Meat loaf made with a grain of some kind isn't anything new; thrifty cooks have long added oatmeal to meat loaf as a way to \"extend\" the more expensive meat. But adding a grain does more than save money-it helps to lighten the texture, so your meat loaf isn't a brick of solid meat. Plus, it brings a whole different level of nutrition to the dish. I use cooked barley here, but you could make the recipe with cooked farro, and you might think about playing with quinoa as well. Even though meat loaf is a classic \"family\" dish, I serve it at dinner parties, dressing it up by smothering it with sautéed mushrooms and more barley-for texture and because it looks fantastic. The recipe makes two loaves, so unless you're serving a crowd, only bake one and freeze the other one for later (raw, really well wrapped). Makes two 8 x 4-inch (20 × 10 cm) loaves, each one serves 3 or 4",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Baked"
+      ],
+      "source": [],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Beef"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:54:56.380398+00:00",
+    "updated_at": "2026-02-05T01:59:34.157167+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "4ed1fe8b-9dc8-42ad-894c-09881c077f4d",
+    "title": "Khao Soi",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/4ed1fe8b-9dc8-42ad-894c-09881c077f4d.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 80,
+    "total_time_minutes": 110,
+    "source": "Night + Market",
+    "notes": "Can use chuck steak or chicken. Optional to deep-fry noodles or buy chow mein for topping. Try to get a little bit of each topping with every bite.",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Slow-Cooked"
+      ],
+      "source": [
+        "Night + Market"
+      ],
+      "cuisine": [
+        "Thai"
+      ],
+      "protein": [
+        "Beef"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:55:22.057709+00:00",
+    "updated_at": "2026-02-05T01:59:34.503943+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "0000f61a-e2be-467b-a4e5-cb925f650c42",
+    "title": "Fennel Italian Sausage",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": null,
+    "total_time_minutes": 15,
+    "source": null,
+    "notes": "Per 1lb ground pork shoulder. Fennel seed is already 1.5x amount.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:56:02.055717+00:00",
+    "updated_at": "2026-02-05T01:59:59.321643+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  },
+  {
+    "id": "2a81c4e4-977f-4f0b-a2fc-fffa3ccd8a63",
+    "title": "Broccoli, Tuna, and Wheat Berry Gratin",
+    "servings": 5,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/2a81c4e4-977f-4f0b-a2fc-fffa3ccd8a63.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 85,
+    "total_time_minutes": 105,
+    "source": "Broccoli, Tuna, and Wheat Berry Gratin.pdf",
+    "notes": "Here's your new tuna casserole (because everyone needs a tuna casserole in their weeknight repertoire, correct?), made ultranutritious by the addition of broccoli and nutty wheat berries. I prefer light (not white) tuna in olive oil. If you want to splurge a bit, try an imported tuna, such as one from the Spanish producer Ortiz.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Baked"
+      ],
+      "source": [],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Seafood"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:52:50.866824+00:00",
+    "updated_at": "2026-02-05T01:59:32.161954+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "de7e1939-4e32-44e5-b67d-7731e90c7224",
+    "title": "Freshest Chicken Salad with Chile Peppers and Wheat Berries",
+    "servings": 5,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/de7e1939-4e32-44e5-b67d-7731e90c7224.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 60,
+    "total_time_minutes": 90,
+    "source": "Grains For Every Season",
+    "notes": "This dish is perfect for summer entertaining, because you can cook the chicken and wheat berries in the cool of the morning or the night before, and everything else in the dish is raw. A dollop of Spicy Creamy Green Sauce (page 314) on this salad would be delish.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Cookbook"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Chicken"
+      ],
+      "meal_type": [
+        "Dinner",
+        "Lunch"
+      ]
+    },
+    "created_at": "2026-02-04T21:53:28.913056+00:00",
+    "updated_at": "2026-02-05T01:59:32.813946+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "fdc39532-e3fd-4030-bb3c-0eda8fded9cf",
+    "title": "Pineapple Shrimp Fried Rice",
+    "servings": 2,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/fdc39532-e3fd-4030-bb3c-0eda8fded9cf.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 30,
+    "source": "Night + Market",
+    "notes": "Served with prik nam pla (Thai fish sauce condiment)",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Stir-Fried"
+      ],
+      "source": [
+        "Night + Market"
+      ],
+      "cuisine": [
+        "Thai"
+      ],
+      "protein": [
+        "Seafood"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:54:28.153311+00:00",
+    "updated_at": "2026-02-05T01:59:33.809481+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "1521d8ba-4bc1-4eb0-8300-fdc5a75112f6",
+    "title": "Lebanese Seven Spice",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": null,
+    "total_time_minutes": 5,
+    "source": "Zaytinya",
+    "notes": "The only rule for making a seven-spice mix is to include at least seven spices; the proportions are up to you. We've tried countless versions, but our hands-down favorite is this one from the great Lebanese cook Anissa Helou. (Pssst. Pass it on.)",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Zaytinya"
+      ],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [
+        "Vegetarian",
+        "Vegan"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:56:22.086125+00:00",
+    "updated_at": "2026-02-05T01:59:59.971836+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  },
+  {
+    "id": "b559d04a-4e50-48fb-9440-ef0393232f90",
+    "title": "Green Mint Oil",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 5,
+    "total_time_minutes": 20,
+    "source": "Zaytinya",
+    "notes": "Oh my god. I love this oil! Its color is astonishing and the intensity of the flavor is electric. This, my friends, will up your cooking game. Two notes: Do not skip the blanching of the mint; mint oxidizes quickly and if it does, you will not get that deep green you are looking for. Store the oil in the refrigerator and pull it out a half hour before you are ready to use.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Zaytinya"
+      ],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [
+        "Vegetarian",
+        "Vegan"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:56:32.157998+00:00",
+    "updated_at": "2026-02-05T02:00:00.291426+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  },
+  {
+    "id": "2fd374e4-1ab0-422a-95a8-f64309f119c2",
+    "title": "Cacio e Pepe Butter",
+    "servings": 6,
+    "photo_urls": [],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 5,
+    "total_time_minutes": 20,
+    "source": "Six Seasons",
+    "notes": "The inspiration for this butter comes from the classic Roman pasta dish of spaghetti with Pecorino Romano cheese and black pepper. I put those two ingredients— plus some Parmigiano to mellow the bite of the pecorino a bit—into a butter, which you can keep in your fridge for weeks. Can be used to fold into hot brown rice or quinoa, toss with simple pasta like spaghetti or angel hair, top a filet mignon, gild the top of an omelet, or drop onto pasta, spring peas, or smashed potatoes.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:56:42.568775+00:00",
+    "updated_at": "2026-02-05T02:00:00.625888+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  },
+  {
+    "id": "15fc7aa1-9a18-494b-8d4b-31a158667dd6",
+    "title": "Mushroom Butter",
+    "servings": 8,
+    "photo_urls": [],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 80,
+    "total_time_minutes": 100,
+    "source": "Six Seasons",
+    "notes": "This butter is a bit more complicated than the other compound butters in this book, but it's a great use of mushroom stems. It's also a nice way to preserve an in-season wild mushroom. I make the basic version using the stems and trimmings from mushrooms, which makes it more economical. Stockpile the stems in the freezer until you're ready to use them in this butter or vegetable stocks.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:57:08.548785+00:00",
+    "updated_at": "2026-02-05T02:00:01.275903+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  },
+  {
+    "id": "edeeae52-e00a-4394-9e49-6d0749872954",
+    "title": "Thai Curry Paste",
+    "servings": 8,
+    "photo_urls": [],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 10,
+    "total_time_minutes": 30,
+    "source": "Night+Market",
+    "notes": "If you tried to catalogue every variety of curry paste in Thailand, you'd probably end up with a book thicker than a September issue of Vogue. This is a handy all-purpose curry paste meant to serve as a baseline, one that's customizable based on whatever specific curry you're cooking. The philosophy behind it is a 'more is better' approach. The paste keeps in the fridge for up to 3 weeks, or in the freezer for up to 3 months. GREEN CURRY PASTE VARIATION: Add 1 tablespoon toasted ground coriander. Omit the dried red chiles and substitute an equal amount of fresh green chiles: use half bird's eye chiles and half shishito peppers, long peppers, or any mild green chile that is not too fleshy. VEGAN CURRY PASTE VARIATION: To make a vegan version, omit the shrimp paste and season with extra salt or thin soy sauce to taste.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Night+Market"
+      ],
+      "cuisine": [
+        "Thai"
+      ],
+      "protein": [],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:57:23.80307+00:00",
+    "updated_at": "2026-02-05T02:00:01.590662+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  },
+  {
+    "id": "d2d37fa5-7fd3-4082-9fd2-717eb06de048",
+    "title": "Shawarma Spice",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": null,
+    "total_time_minutes": 10,
+    "source": "Zaytinya",
+    "notes": "Enough for 3-4 lb chicken",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Zaytinya"
+      ],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:57:35.60197+00:00",
+    "updated_at": "2026-02-05T02:00:01.925781+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  },
+  {
+    "id": "aa800675-777a-42d7-b3f8-5c6d9850fe7e",
+    "title": "Golden Baharat Spice",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 5,
+    "total_time_minutes": 15,
+    "source": "Zaytinya",
+    "notes": "The Arabic word \"baharat\" translates simply to \"spices.\" This aromatic mix has a golden hue from the turmeric and a hit of heat from Aleppo pepper. It's designed to season meats, but it's so good we also use it in rice dishes, even to flavor candied walnuts. Store for up to a month.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Zaytinya"
+      ],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:57:47.470548+00:00",
+    "updated_at": "2026-02-05T02:00:02.273262+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  },
+  {
+    "id": "91a0573a-4465-4280-a870-ea0cc145750b",
+    "title": "Velveting / Tenderizing Meat (Chinese Technique)",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": null,
+    "total_time_minutes": 35,
+    "source": "Velveting Tenderizing Meat (Chinese Technique).pdf",
+    "notes": "This is a Chinese technique for tenderizing meat before cooking. Use the baking soda only for beef. Marinate for 30 minutes before cooking.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [],
+      "cuisine": [
+        "Chinese"
+      ],
+      "protein": [
+        "Chicken",
+        "Pork",
+        "Beef"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:57:58.417568+00:00",
+    "updated_at": "2026-02-05T02:00:02.628772+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  },
+  {
+    "id": "8fb005cf-e076-45fd-9504-88a59d618b99",
+    "title": "BECHS Breakfast Burrito (Bonfire OG)",
+    "servings": 8,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/8fb005cf-e076-45fd-9504-88a59d618b99.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 45,
+    "total_time_minutes": 60,
+    "source": null,
+    "notes": "Freeze on sheet pan overnight, then wrap in butcher paper for storage",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Roasted"
+      ],
+      "source": [],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Breakfast"
+      ]
+    },
+    "created_at": "2026-02-04T21:58:45.762772+00:00",
+    "updated_at": "2026-02-05T02:00:03.878577+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  },
+  {
+    "id": "10a371c1-48e8-40c8-b9a2-b35f42a2e4f4",
+    "title": "Tomato Conserva",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 270,
+    "total_time_minutes": 300,
+    "source": null,
+    "notes": "Who knew that tomato paste could be exciting? That's essentially what conserva is, but because you're making it with fresh tomatoes at their peak, good olive oil, and care and attention, the result is like no canned tomato paste you've ever had. Deep and sweet with just a hint of caramelized sugars, a big batch of conserva is an excellent preserve to make when you're feeling crafty.",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Baked"
+      ],
+      "source": [],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [
+        "Vegetarian",
+        "Vegan"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:59:04.746187+00:00",
+    "updated_at": "2026-02-05T02:00:04.541222+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  },
+  {
+    "id": "4ac981d5-e60b-4f84-9dc9-f19399fb6f7f",
+    "title": "Basic Vegetable Pickle Brine",
+    "servings": 3,
+    "photo_urls": [],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": null,
+    "total_time_minutes": 10,
+    "source": "Six Seasons",
+    "notes": "Refrigerate for up to 2 months. Start tasting after the first day to see how the flavor and texture are developing. They are ready to eat as soon as you think they are.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [],
+      "protein": [
+        "Vegetarian",
+        "Vegan"
+      ],
+      "meal_type": [
+        "Side",
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:59:23.467854+00:00",
+    "updated_at": "2026-02-05T01:59:35.511499+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "5372d26e-4db8-46a2-be0f-b72dcba07a2c",
+    "title": "Smashed New Potatoes with Lemon and Lots of Olive Oil",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 30,
+    "source": "Six Seasons",
+    "notes": "This side dish is so perfect on its own that I hesitate to suggest any additions, but if you must, a handful of freshly picked herbs- especially chives and dill-is fantastic. MORE WAYS: Make amazing hash browns: Shape the potatoes into little pucks, dip the top and bottom in breadcrumbs, and shallow-fry in a blend of oil and butter until browned and crisp. Load it up for a gutsy version: Right before final seasoning, fold in chopped pitted olives, capers, and chopped scallions. Add some California: Smash a diced avocado into the potatoes as you smash them.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Boiled"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T21:59:33.636553+00:00",
+    "updated_at": "2026-02-05T01:59:35.843584+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "51d4f188-af5c-43fc-becd-3c9685c6fa83",
+    "title": "Sumac Onions",
+    "servings": 2,
+    "photo_urls": [],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": null,
+    "total_time_minutes": 10,
+    "source": "Zaytinya",
+    "notes": "Sumac is ubiquitous in Turkish cuisine, adding color and a bright acidity. No wonder it's a key ingredient in this colorful, raw onion salad that pairs perfectly with grilled meats and kebabs. Many cooks will use red onions for this dish, but use a sweet variety of onions, such as Vidalia or Maui, for best results. The onions can be kept covered and refrigerated for 1 week.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Zaytinya"
+      ],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T21:59:44.085762+00:00",
+    "updated_at": "2026-02-05T01:59:36.173649+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "aefadab4-3731-473a-9bf3-23b1b2a4324e",
+    "title": "Smashed Rutabaga with Apples and Ham",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 35,
+    "total_time_minutes": 50,
+    "source": "Six Seasons",
+    "notes": "Rutabaga is not a sophisticated vegetable; it feels right at home with the country fixings of apples and ham. Pears in place of apples would be delicious, too.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T21:59:55.983002+00:00",
+    "updated_at": "2026-02-05T01:59:36.514496+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "b8c7852e-0d75-4061-a101-0fa7555eb8c1",
+    "title": "Thai Chile Jam (Nam Prik Pao)",
+    "servings": 16,
+    "photo_urls": [],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 35,
+    "source": "Night+Market",
+    "notes": "The beauty of chile jam is its sweet/spicy/umami versatility. You can scoop it up with shrimp chips, toasted white bread, or grilled meats. You can thicken it with crushed pork rinds or fried chicken skin to create a heartier, crunchier, saltier dip. It tastes good with rice, and you can mix it into stir-fries, soups, salads, or curries to lend a deep, tangy edge. Experiment with any dried chile you prefer - using dried chipotles will produce a smoky jam, or using dried árbols will make it spicier. Store in airtight container and pour ¼ cup reserved frying oil as a cap to help it stay fresh longer. Will keep in fridge for up to 1 month.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Fried"
+      ],
+      "source": [
+        "Night+Market"
+      ],
+      "cuisine": [
+        "Thai"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:58:13.522691+00:00",
+    "updated_at": "2026-02-05T02:00:02.953206+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  },
+  {
+    "id": "e72d8da7-7133-4cf8-b594-a4bc4e133cd4",
+    "title": "Alla Diavola Butter",
+    "servings": 8,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/e72d8da7-7133-4cf8-b594-a4bc4e133cd4.jpeg"
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": null,
+    "total_time_minutes": 70,
+    "source": "Six Seasons",
+    "notes": "The Italians have a few dishes they refer to as alla diavola, which means \"devil style\" —in other words, spicy as hell. In this butter, I bring together layers of not just heat but all kinds of good chile and pepper flavors. You can adjust up or down, depending on how intense you like your heat. MORE WAYS: Stuff in the center of a chicken breast and roast. Swirl into a tomato soup. Smear over grilled skirt or flank steak.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:58:36.945206+00:00",
+    "updated_at": "2026-02-05T02:00:03.565045+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  },
+  {
+    "id": "61dcbb11-ff6b-4f4e-ab81-43b39afaee3f",
+    "title": "Garlic Confit",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/61dcbb11-ff6b-4f4e-ab81-43b39afaee3f.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 60,
+    "total_time_minutes": 75,
+    "source": "Gjelina",
+    "notes": "These slow-cooked cloves of garlic lend a more muted flavor to a dish than raw or even quickly sautéed garlic. And the garlic-scented oil is equally valuable. Store in an airtight container in the refrigerator for up to 2 months, completely covered with olive oil to prevent air from reaching them.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Baked"
+      ],
+      "source": [
+        "Gjelina"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:58:54.482576+00:00",
+    "updated_at": "2026-02-05T02:00:04.223745+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  },
+  {
+    "id": "6fc4dc93-12e9-4179-80df-0b65efc3af73",
+    "title": "Roasted Brussels Sprouts With Kimchi and Ginger",
+    "servings": 6,
+    "photo_urls": [],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 25,
+    "source": null,
+    "notes": null,
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Roasted"
+      ],
+      "source": [],
+      "cuisine": [
+        "Korean"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:02:02.184237+00:00",
+    "updated_at": "2026-02-04T22:02:02.184237+00:00",
+    "wine_pairing": null,
+    "book_id": null
+  },
+  {
+    "id": "40f4d9e6-0213-40cb-8323-18ed7562a61f",
+    "title": "Roasted Brussels Sprouts with Pancetta Vinaigrette",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 22,
+    "total_time_minutes": 37,
+    "source": "Six Seasons",
+    "notes": "Wednesday night and you're not sure what's for dinner? This is. Roast up a bunch of sprouts, season with this meaty dressing- or any other vinaigrette or even simple oil and vinegar-and you have a substantial side dish without much work. Serve over a mound of wild rice, or next to some pork tenderloin medallions.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Roasted"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:00:05.676859+00:00",
+    "updated_at": "2026-02-05T01:59:36.846666+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "251fff69-d3c4-4328-bb39-2194a3481b6d",
+    "title": "Smashed Broccoli and Potatoes with Parmigiano and Lemon",
+    "servings": 5,
+    "photo_urls": [],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 25,
+    "total_time_minutes": 40,
+    "source": "Six Seasons",
+    "notes": "This dish delivers the same comfort factor as classic mashed potatoes, but with more complexity and nutrition. Don't be timid with the lemon and olive oil-they're what makes the dish. You can make these ahead and reheat them gently in a covered dish in the oven or in a pan on the stovetop with a little bit of water to loosen them.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Boiled"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:00:30.766876+00:00",
+    "updated_at": "2026-02-05T01:59:37.528704+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "dbec424c-9da4-418a-9d32-850283b12476",
+    "title": "Farro and Roasted Carrot Salad with Whipped Ricotta",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 30,
+    "source": null,
+    "notes": "Requires pre-cooked farro and prepared whipped ricotta",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Roasted"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side",
+        "Lunch"
+      ]
+    },
+    "created_at": "2026-02-04T22:00:45.627485+00:00",
+    "updated_at": "2026-02-05T01:59:37.909142+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "bd666184-bad5-48e1-a74c-d87bf242e8dc",
+    "title": "Grilled Romaine With Bagna Cauda",
+    "servings": 6,
+    "photo_urls": [],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 35,
+    "source": "Gjelina",
+    "notes": "Store bagna cauda in refrigerator for up to 5 days. Warm over low heat before serving.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Grilled"
+      ],
+      "source": [
+        "Gjelina"
+      ],
+      "cuisine": [
+        "American",
+        "Mediterranean"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side",
+        "Appetizer"
+      ]
+    },
+    "created_at": "2026-02-04T22:00:58.982279+00:00",
+    "updated_at": "2026-02-05T01:59:38.274552+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "4f1a82b6-458d-499a-ace7-30060ea4ee79",
+    "title": "Grilled Escarole With Lemon-Anchovy Dressing & Roasted Red Peppers",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 10,
+    "total_time_minutes": 30,
+    "source": null,
+    "notes": "The dressing should be thick and lemony, with a bold punch of anchovy. If the dressing seems too thick, thin with a couple of drops of cold water.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Grilled"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:01:18.087357+00:00",
+    "updated_at": "2026-02-05T01:59:38.592977+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "1698b392-f628-49a3-9867-8fd6dccc8386",
+    "title": "Lemony Couscous Salad",
+    "servings": 6,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/1698b392-f628-49a3-9867-8fd6dccc8386.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": null,
+    "total_time_minutes": 70,
+    "source": "Lemony Couscous Salad.pdf",
+    "notes": null,
+    "tags": {
+      "effort": "Moderate",
+      "method": [],
+      "source": [],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:01:48.971282+00:00",
+    "updated_at": "2026-02-05T01:59:39.570486+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "be62fa2f-d0dc-4b82-8fb9-92a5e6c501da",
+    "title": "Greek Salad (Traditional Horiatiki Recipe)",
+    "servings": 6,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/be62fa2f-d0dc-4b82-8fb9-92a5e6c501da.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": null,
+    "total_time_minutes": 15,
+    "source": null,
+    "notes": null,
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:02:30.029546+00:00",
+    "updated_at": "2026-02-05T01:59:40.590051+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "ceb9b159-b346-4d73-ad54-0e5a3f35bcf2",
+    "title": "Mashed Rutabaga with Watercress and Watercress Butter",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/ceb9b159-b346-4d73-ad54-0e5a3f35bcf2.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 25,
+    "total_time_minutes": 40,
+    "source": "Six Seasons",
+    "notes": "This recipe is very much a farmhouse dish- exactly the kind of food I crave in the winter. It's sweet and earthy, and a perfect easy dish to serve next to a pork roast, roast chicken, fish fillet, or in a big bowl on its own, as a bowl of comfort. You'll find yourself using the watercress butter on tons of other dishes-fish, grilled meats, and other roasted vegetables.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Boiled"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:02:40.350033+00:00",
+    "updated_at": "2026-02-05T01:59:40.928593+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "d79271ed-9bac-410a-9fb4-7ed80194fb5f",
+    "title": "Garlic Bread",
+    "servings": 1,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/d79271ed-9bac-410a-9fb4-7ed80194fb5f.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 30,
+    "source": null,
+    "notes": null,
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Baked"
+      ],
+      "source": [],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:03:03.009427+00:00",
+    "updated_at": "2026-02-05T01:59:41.640022+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "c6a9b372-91d8-4fe4-81bc-c2806fb2b4d2",
+    "title": "Colcannon with Watercress Butter",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 35,
+    "source": "Six Seasons",
+    "notes": "Colcannon is a traditional Irish dish mainly consisting of mashed potatoes with kale or cabbage and leeks. I finish mine with a big dollop of watercress butter for some pop. If you find kale still in the market in early spring, make this with Green Garlic Butter (page 34) instead.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Boiled"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:04:42.552063+00:00",
+    "updated_at": "2026-02-04T22:04:42.552063+00:00",
+    "wine_pairing": null,
+    "book_id": null
+  },
+  {
+    "id": "dc7f9aba-ee97-4a7a-86e0-7d496d2dcd59",
+    "title": "Beet Slaw with Pistachios and Raisins",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/dc7f9aba-ee97-4a7a-86e0-7d496d2dcd59.jpeg"
+    ],
+    "prep_time_minutes": 75,
+    "cook_time_minutes": null,
+    "total_time_minutes": 75,
+    "source": "Six Seasons",
+    "notes": "The pistachio butter underneath the slaw is like an Asian peanut sauce, bringing a much fuller nut flavor than the pistachios could offer alone. As you eat the dish, the juices from the slaw dissolve into the pistachio butter and make a crazy good sort of vinaigrette.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:04:08.323034+00:00",
+    "updated_at": "2026-02-05T01:59:43.365432+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "ef52ee11-6603-470f-9d43-9d4d339d9e86",
+    "title": "Roasted Turnips with Caper-Raisin Vinaigrette and Breadcrumb",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/ef52ee11-6603-470f-9d43-9d4d339d9e86.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 30,
+    "source": "Six Seasons",
+    "notes": "The sweet-tart vinaigrette stands up nicely to the pungency of a late-season turnip.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Roasted"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:04:18.759501+00:00",
+    "updated_at": "2026-02-05T01:59:43.701664+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "8a3c74aa-1ea8-41a6-8d92-0f72f15e68cc",
+    "title": "Gratin of Brussels Sprouts, Gruyère, and Prosciutto",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/8a3c74aa-1ea8-41a6-8d92-0f72f15e68cc.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 35,
+    "total_time_minutes": 50,
+    "source": "Six Seasons",
+    "notes": "This dish takes its cue from the classic Brussels sprouts-and-bacon combo, and it is addictive. You'll probably find yourself eating leftovers, cold, standing up in the kitchen ... quite happy and not willing to share.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Roasted",
+        "Baked"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:05:09.331541+00:00",
+    "updated_at": "2026-02-05T01:59:44.714787+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "546bc327-249c-477a-9fb0-a46c35fdd499",
+    "title": "Arugula & Radicchio Salad with Crispy Shallots & Shallot Oil",
+    "servings": 5,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/546bc327-249c-477a-9fb0-a46c35fdd499.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 30,
+    "source": "Gjelina",
+    "notes": "Store crispy shallots in airtight container at room temperature for up to 3 days. Store shallot oil in refrigerator for up to 7 days.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Gjelina"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:05:23.902512+00:00",
+    "updated_at": "2026-02-05T01:59:45.034003+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "93f6d633-cdf1-40fe-b0d2-c099d30633ad",
+    "title": "Roasted Mushrooms, Gremolata-Style",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/93f6d633-cdf1-40fe-b0d2-c099d30633ad.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 35,
+    "source": "Six Seasons",
+    "notes": "A light hand with the seasonings lets the forest-y mushroom flavor lead the way. I use this as a side dish or as a topping for grilled fish, braised meats, or meatballs. The basic roasted mushrooms without the gremolata seasoning are even more versatile.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Roasted"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:05:36.465598+00:00",
+    "updated_at": "2026-02-05T01:59:45.374808+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "8831fff2-6d56-44dd-8bc1-54e005d578dd",
+    "title": "Spicy Fish-Sauce Sauce",
+    "servings": 5,
+    "photo_urls": [],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": null,
+    "total_time_minutes": 10,
+    "source": null,
+    "notes": "Ideally, make this a day ahead, then taste and readjust the seasonings on the second day. The chile heat is likely to get stronger. The sauce will keep for a month or two in the fridge.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [],
+      "cuisine": [
+        "Thai"
+      ],
+      "protein": [],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:08:40.133213+00:00",
+    "updated_at": "2026-02-05T01:59:49.103294+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "592fe324-44cd-4cd1-a059-4058be17f5cf",
+    "title": "Sugar Snap Peas with Pickled Cherries and Peanuts",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/592fe324-44cd-4cd1-a059-4058be17f5cf.jpeg"
+    ],
+    "prep_time_minutes": 25,
+    "cook_time_minutes": null,
+    "total_time_minutes": 25,
+    "source": "Six Seasons",
+    "notes": "Serve lightly chilled",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:03:27.137815+00:00",
+    "updated_at": "2026-02-05T01:59:42.330436+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "6f61dcda-52f8-4c16-9eb7-76c14cdd14d6",
+    "title": "Roasted Fennel & Blood Oranges",
+    "servings": 5,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/6f61dcda-52f8-4c16-9eb7-76c14cdd14d6.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 30,
+    "source": "Gjelina",
+    "notes": "SERVES 4 TO 6 AS A SIDE DISH / This is a stunning side that goes particularly well with fish, or stands up on its own. I love when you can use multiple parts of the plant in a single dish; with fennel you can use the bulb, stem, fronds, and the pollen that's harvested from the flowers. Use the best citrus you can find and feel free to substitute tangelos or mandarins.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Roasted",
+        "Sautéed"
+      ],
+      "source": [
+        "Gjelina"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:04:56.825598+00:00",
+    "updated_at": "2026-02-05T01:59:44.358264+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "da667889-cce9-4108-ab1c-60f29db54eee",
+    "title": "Super-Crisp Flatbread That Tastes Like Cheez-Its",
+    "servings": 16,
+    "photo_urls": [],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 8,
+    "total_time_minutes": 158,
+    "source": "Cheez It Cracker Bread.pdf",
+    "notes": "The dough for these crackers is very stiff and dry; you may think you've done something wrong at first, but just press on, it'll all be fine. A pasta roller is really needed to roll this stiff dough to the proper thinness. You should bake off a few smaller test crackers to get the timing right. The crackers should be just browned on the edges with a golden center. Refrigerate dough for at least 2 hours and up to overnight.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Baked"
+      ],
+      "source": [
+        "Grains For Every Season"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Snack",
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:06:07.573035+00:00",
+    "updated_at": "2026-02-04T22:06:07.573035+00:00",
+    "wine_pairing": null,
+    "book_id": null
+  },
+  {
+    "id": "d9b86e12-5512-404a-8b19-2afdee6f079e",
+    "title": "The Kale Salad That Started It All",
+    "servings": 3,
+    "photo_urls": [],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": null,
+    "total_time_minutes": 15,
+    "source": "Six Seasons",
+    "notes": "TIP: to ensure tender kale without long cooking: Freeze the kale raw (and trimmed) for a few hours; freezing will break down the fibers. Cook it straight from the freezer.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:07:49.866741+00:00",
+    "updated_at": "2026-02-04T22:07:49.866741+00:00",
+    "wine_pairing": null,
+    "book_id": null
+  },
+  {
+    "id": "a389bc27-f53b-4b0a-af97-649fd85d5e79",
+    "title": "Kale Sauce For Pasta/Grains",
+    "servings": 2,
+    "photo_urls": [],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 35,
+    "source": null,
+    "notes": "Multiple variations included: with pistachios, classic basil pesto, caper-raisin, with sausage and cheese, with sautéed shrimp, and with fresh tomatoes.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T22:08:14.018299+00:00",
+    "updated_at": "2026-02-04T22:08:14.018299+00:00",
+    "wine_pairing": null,
+    "book_id": null
+  },
+  {
+    "id": "52943f92-a83f-4620-8045-6f9801556cc5",
+    "title": "Spicy Asian Cucumbers",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/52943f92-a83f-4620-8045-6f9801556cc5.jpeg"
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": null,
+    "total_time_minutes": 30,
+    "source": null,
+    "notes": "Let marinate for at least 30 min or enjoy right away!",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [],
+      "cuisine": [
+        "Korean"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:06:31.639759+00:00",
+    "updated_at": "2026-02-05T01:59:46.424017+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "097ac994-fe40-4889-ae54-670917861f68",
+    "title": "English Pea Toast",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/097ac994-fe40-4889-ae54-670917861f68.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 10,
+    "total_time_minutes": 40,
+    "source": "Six Seasons",
+    "notes": "A perfect showcase for the early-season peas, this toast can be an appetizer, a first course, or a light main course. A layer of fresh sheep's cheese, sweet and mild, would be so nice with the peas, but I also use my go-to cheese topping, Whipped Ricotta (page 37).",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Grilled"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Appetizer",
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:07:08.964355+00:00",
+    "updated_at": "2026-02-05T01:59:47.112769+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "d25c80f3-cfd9-4504-b001-49cf36fab872",
+    "title": "Raw Asparagus Salad with Breadcrumbs, Walnuts, and Mint",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/d25c80f3-cfd9-4504-b001-49cf36fab872.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": null,
+    "total_time_minutes": 15,
+    "source": "Six Seasons",
+    "notes": "Make this dish before you do any cooked asparagus dishes, at the start of the season when you get pristine spears. At first glance, the dish looks kind of \"meh,\" but once you taste it, the flavor and texture blow you away. Be sure to cut the asparagus very thin.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:07:22.458809+00:00",
+    "updated_at": "2026-02-05T01:59:47.427651+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "402b45b7-556a-48c8-8f4b-2c005412433d",
+    "title": "Roasted Radishes with Brown Butter, Chile, and Honey",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/402b45b7-556a-48c8-8f4b-2c005412433d.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 35,
+    "source": "Six Seasons",
+    "notes": "Raw radishes and fresh butter are a classic pairing, but here we cook the two together until toasty and nutty. A splash of vinegar, a pinch of chile, and a drizzle of honey create a delicious tension that makes this dish unexpectedly satisfying.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Roasted"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:08:01.586857+00:00",
+    "updated_at": "2026-02-05T01:59:48.072102+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "e8a22586-5811-4d10-9ea3-49f01b196454",
+    "title": "Dumpling Sauce",
+    "servings": 8,
+    "photo_urls": [],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": null,
+    "total_time_minutes": 5,
+    "source": null,
+    "notes": null,
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [],
+      "cuisine": [
+        "Chinese"
+      ],
+      "protein": [],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:08:31.142131+00:00",
+    "updated_at": "2026-02-05T01:59:48.759232+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "2f2dd073-3658-4d9a-8e86-af12f7a48bef",
+    "title": "Little Gems with Lemon Cream, Spring Onion, Radish, and Mint",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/2f2dd073-3658-4d9a-8e86-af12f7a48bef.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": null,
+    "total_time_minutes": 30,
+    "source": "Six Seasons",
+    "notes": "Little Gems are a mini romaine type of lettuce- compact little heads with crisp cores and tender green leaves. Because of their size, a half head makes a perfect portion, or you can separate the slightly ruffled leaves and toss them to make a loose salad.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:06:19.975337+00:00",
+    "updated_at": "2026-02-05T01:59:46.064424+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "8c3337b2-d13a-472b-9ebc-5dc004176de2",
+    "title": "Pancetta Vinaigrette",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 10,
+    "total_time_minutes": 20,
+    "source": "Six Seasons",
+    "notes": "This dressing is wonderful when served warm over sturdy greens, such as frisée or escarole, and it's also fantastic on anything starchy, such as boiled smashed potatoes or shell beans. Dress a tomato and butter lettuce salad with it, and you've got a BLT on a plate. You can store this in the refrigerator for a few weeks; the fat will solidify on the top. To use, let it sit at room temperature until the fat melts, then give a quick stir to blend the ingredients again.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:09:02.050487+00:00",
+    "updated_at": "2026-02-05T01:59:49.754388+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "e5d068ee-be93-4403-aa73-82f96a0dbb79",
+    "title": "Tomatillo-Chipotle Salsa",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 30,
+    "source": "Tomatillo-Chipotle Salsa.pdf",
+    "notes": "The chromotology of food has always interested me: the way the color of a dish can speak to its flavor, even before you taste it. This salsa is the color of rust, and so the flavor of tart green fruit is a surprise. This is a highly adaptable salsa that takes well to just about any dried chile. To make a variation, stem, seed, and devein two dried pasillas Oaxaqueños, and then toast and soak them as you would for Salsa Borracha.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Roasted"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mexican"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:09:13.818316+00:00",
+    "updated_at": "2026-02-05T01:59:50.072864+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "3615e527-3be9-492e-8259-5f0a6e5153d0",
+    "title": "Yogo Ranch Dressing",
+    "servings": 8,
+    "photo_urls": [],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": null,
+    "total_time_minutes": 10,
+    "source": null,
+    "notes": "I think everyone should indulge in as much ranch dressing as they want, whenever they want. Especially my version, which uses yogurt instead of mayonnaise, making it just a bit more healthful. For the best flavor, let the dressing sit for at least 30 minutes before using, so the ingredients can share their flavors with one another. Store in the fridge for up to 1 week.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:09:38.187499+00:00",
+    "updated_at": "2026-02-05T01:59:50.741179+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "96a52dbd-6e8a-4a69-9040-8a54e1364de4",
+    "title": "Salsa Borracha",
+    "servings": 5,
+    "photo_urls": [],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 25,
+    "total_time_minutes": 45,
+    "source": null,
+    "notes": "Like a lot of things in Mexican cuisine, the recipe for salsa borracha (\"drunken salsa\") is a moving target. Every borracha I've encountered contains heat and hooch, but that's the only through line. I've seen them made with different types of chiles (árbols, chipotles, pasillas) and different kinds of booze (tequila, pulque, beer). To nail down our recipe, I thought about the place I first encountered this salsa: at a lamb barbacoa stand at Central de Abastos market in Oaxaca. It just makes sense to match up two of that region's seminal flavors: roasty mezcal with the campfire smokiness of pasilla Oaxaqueño. The salsa will keep for up to 1 week refrigerated.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Roasted"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mexican"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:09:52.257272+00:00",
+    "updated_at": "2026-02-05T01:59:51.070595+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "e0c4ae51-0b76-48d4-821b-d5c56127e305",
+    "title": "Raw Salsa Verde",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": null,
+    "total_time_minutes": 15,
+    "source": "Raw Salsa Verde.pdf",
+    "notes": "Raw ingredients speak (shout, actually) for themselves in this purist salsa verde. It's all about the green apple acidity of ripe tomatillo, the heat of untreated chiles, and the garlicky sting right up front. The finished salsa is best eaten the day it is made; if you want to work ahead, don't add the cilantro to the salsa until the day you plan to serve it.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Tacos"
+      ],
+      "cuisine": [
+        "Mexican"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:10:03.214679+00:00",
+    "updated_at": "2026-02-05T01:59:51.409694+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "9b48ee58-05da-4b9e-9af2-87533c9add18",
+    "title": "Fresh Orange and Garlic Confit Vinaigrette",
+    "servings": 8,
+    "photo_urls": [],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": null,
+    "total_time_minutes": 15,
+    "source": "Grains For Every Season",
+    "notes": "A basic navel orange works just fine in this dressing, but feel free to play with some of the other wonderful citrus varieties that are in season during the colder months. Cara Cara oranges are sweet and a beautiful blush pink, blood oranges will bring even more dramatic color, and any sort of tangerine or satsuma is extra sweet and perfumey. You can adjust the amount of vinegar to match the sweetness or tartness of your fruit.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Grains For Every Season"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:10:13.948179+00:00",
+    "updated_at": "2026-02-05T01:59:51.747809+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "933edd2d-3935-4129-85fa-31d34f0c0e53",
+    "title": "Salsa Roja",
+    "servings": 8,
+    "photo_urls": [],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 45,
+    "total_time_minutes": 65,
+    "source": "Salsa Roja.pdf",
+    "notes": "Salsa roja and salsa verde are the ebony and ivory of the salsa universe: Whereas verde supplies brightness and clean, sharp heat, roja offers gentle spice and dried-herb warmth. It makes sense that the two keep such close company—you'll encounter versions of both at nearly every taqueria in Mexico. For my salsa roja, I looked to guajillo chile, one of the workhorses of the Mexican pantry. Cheap and ubiquitous, these dried peppers impart the mild heat, distinctive berry-like aroma, and deep, rusty hue that define a good roja. The salsa will keep for up to 3 days.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Roasted"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mexican"
+      ],
+      "protein": [
+        "Vegetarian",
+        "Vegan"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:10:29.216817+00:00",
+    "updated_at": "2026-02-05T01:59:52.097649+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "8e192dbf-0b44-4803-bfd1-bff4a713f348",
+    "title": "Spiced Green Sauce",
+    "servings": 8,
+    "photo_urls": [],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 5,
+    "total_time_minutes": 20,
+    "source": "Six Seasons",
+    "notes": "This delicious sauce is similar to a classic Middle Eastern skhug, with its sweet spices and chile pepper. My friend chef Samuel Smith developed this recipe at Ava Gene's, where we use it on vegetables, grilled meats, and snacks of all kinds. It is a workhorse recipe, and you will find countless ways to use it in your own kitchen. To lower the chile heat, use milder chiles such as poblano or Anaheim.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian",
+        "Vegan"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:10:44.875924+00:00",
+    "updated_at": "2026-02-05T01:59:52.457498+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "b229aab6-11f6-44d6-9a31-e5432447726c",
+    "title": "Whipped Ricotta",
+    "servings": 6,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/b229aab6-11f6-44d6-9a31-e5432447726c.jpeg"
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": null,
+    "total_time_minutes": 10,
+    "source": "Six Seasons",
+    "notes": "Whipped ricotta is a spreadable flavor machine, incredible with tomato salads and perfect on the flatbreads in this book, either naked or topped with some wilted, sautéed, or roasted vegetables or greens. It keeps well, so store some in your fridge, you will always find ways to use it. Spread on good bread and top with something savory: anchovies, peperonata, salsa verde. Use as a dip for grilled vegetables.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:11:34.844738+00:00",
+    "updated_at": "2026-02-05T01:59:53.730159+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "226e8135-a16a-4823-9f74-f3ef80acc807",
+    "title": "Caper-Raisin Vinaigrette",
+    "servings": 1,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/226e8135-a16a-4823-9f74-f3ef80acc807.jpeg"
+    ],
+    "prep_time_minutes": 35,
+    "cook_time_minutes": null,
+    "total_time_minutes": 35,
+    "source": "Six Seasons",
+    "notes": "This recipe is adapted from Mr. Wilkinson's Vegetables by Matt Wilkinson, a chef based in Melbourne, Australia. It's magically great with many things, in particular turnips, asparagus, broccoli, and cauliflower. Keep some around at all times; you won't have a problem finding things to do with it. Store in the fridge for up to 3 weeks.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:12:19.439375+00:00",
+    "updated_at": "2026-02-05T01:59:55.03666+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "bdfb8018-bbbe-4408-a5b6-b4a0a91b0f8f",
+    "title": "Tahini Sauce",
+    "servings": 16,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/bdfb8018-bbbe-4408-a5b6-b4a0a91b0f8f.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": null,
+    "total_time_minutes": 15,
+    "source": "Zaytinya",
+    "notes": "Tahini is an essential ingredient of Lebanese cooking. This thick paste made from sesame seeds flavors hommus and baba ghannouge, but it also quickly becomes a sauce with just a few ingredients. This recipe is the perfect companion to Falafel, either spread on the serving plate or spooned into a pita for a sandwich, and grilled lamb baharat. Adding very cold water as the sauce purees helps keep it from turning bitter and adds some body to lighten the mixture; you can even add a few ice cubes if you like. Blending in herbs like mint and parsley makes it an excellent sauce for vegetables and fish.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Zaytinya"
+      ],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [
+        "Vegan"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:12:31.547583+00:00",
+    "updated_at": "2026-02-05T01:59:55.375334+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "c92a7ec3-ba0c-492d-9fd6-015c3279b8a5",
+    "title": "Cilantro-Raisin Vinaigrette",
+    "servings": 1,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/c92a7ec3-ba0c-492d-9fd6-015c3279b8a5.jpeg"
+    ],
+    "prep_time_minutes": 35,
+    "cook_time_minutes": null,
+    "total_time_minutes": 35,
+    "source": "Mr. Wilkinson's Vegetables by Matt Wilkinson",
+    "notes": "This is my latest evolution of a dressing I've been making for years, which I learned from Australian chef Matt Wilkinson's cookbook Mr. Wilkinson's Vegetables. Sweet-tart is the key.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Grains For Every Season"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:12:43.383478+00:00",
+    "updated_at": "2026-02-05T01:59:55.714361+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "7151fc75-b15a-4c1d-977a-47e7dfff2f43",
+    "title": "Whipped Feta",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/7151fc75-b15a-4c1d-977a-47e7dfff2f43.jpeg"
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": null,
+    "total_time_minutes": 10,
+    "source": "Six Seasons",
+    "notes": "Store in the fridge for up to 1 week.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Blended"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce",
+        "Appetizer"
+      ]
+    },
+    "created_at": "2026-02-04T22:12:52.853961+00:00",
+    "updated_at": "2026-02-05T01:59:56.034913+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "faadd4d5-cc44-4d4e-ac4d-a139d6be8c7a",
+    "title": "Tzatziki, with Lots of Fresh Herbs",
+    "servings": 8,
+    "photo_urls": [],
+    "prep_time_minutes": 25,
+    "cook_time_minutes": null,
+    "total_time_minutes": 25,
+    "source": "Grains For Every Season",
+    "notes": "This sauce is almost like a salad in itself, given the large quantity of cucumber. It's so fresh, a perfect thing to pair with something fried, like Freekeh Falafel. The flavor is best after at least 2 hours, when the ingredients have had a chance to infuse their flavors into the yogurt. The sauce will get a bit weepy after a couple of days, however, because of the cucumber; if that happens, just stir any juices back in.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Grains For Every Season"
+      ],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:10:58.280165+00:00",
+    "updated_at": "2026-02-05T01:59:52.784636+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "5fa5dee0-e76e-41e4-8e1a-075ab5fa85e3",
+    "title": "Roasted Salsa Verde",
+    "servings": 8,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/5fa5dee0-e76e-41e4-8e1a-075ab5fa85e3.jpeg"
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 30,
+    "source": null,
+    "notes": "Store leftover salsa in the fridge for up to 5 days.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Roasted"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mexican"
+      ],
+      "protein": [
+        "Vegetarian",
+        "Vegan"
+      ],
+      "meal_type": [
+        "Sauce",
+        "Appetizer"
+      ]
+    },
+    "created_at": "2026-02-04T22:11:26.002842+00:00",
+    "updated_at": "2026-02-05T01:59:53.406758+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "ad2c02e6-febf-4b49-8b32-fc625a73ec48",
+    "title": "Citrus Vinaigrette",
+    "servings": 6,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/ad2c02e6-febf-4b49-8b32-fc625a73ec48.jpeg"
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": null,
+    "total_time_minutes": 10,
+    "source": "Six Seasons",
+    "notes": "Make this dressing with blood oranges when they are in season. The dressing is delicious cold, or you can gently warm it. It lasts forever in the refrigerator. Use it with leaf salads, root vegetables, celery, broccoli-the entire brassica family, really-plus asparagus, peas, snap peas, fennel, seafood, grain-based salads. Store in the fridge for up to 2 weeks.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:11:56.440606+00:00",
+    "updated_at": "2026-02-05T01:59:54.37836+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "6b6ecc71-85f7-40f8-8bdb-1cd7567e5c83",
+    "title": "Classic Sage and Sausage Stuffing",
+    "servings": 14,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/6b6ecc71-85f7-40f8-8bdb-1cd7567e5c83.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 135,
+    "total_time_minutes": 150,
+    "source": "Kenji",
+    "notes": "Can be refrigerated before baking. Bring to room temperature before baking.",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Baked"
+      ],
+      "source": [
+        "Kenji"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:14:14.943928+00:00",
+    "updated_at": "2026-02-05T01:59:57.994613+00:00",
+    "wine_pairing": null,
+    "book_id": "9c056ed7-e462-47b4-843b-75cfc6655df9"
+  },
+  {
+    "id": "03393610-806a-4fcf-a68a-82211366c784",
+    "title": "Bala Gravy",
+    "servings": 8,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/03393610-806a-4fcf-a68a-82211366c784.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 90,
+    "total_time_minutes": 120,
+    "source": "Thanksgiving",
+    "notes": "Make-ahead gravy with porcini mushroom flavor. Prepare butter-flour balls in advance.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Family Recipe"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Chicken"
+      ],
+      "meal_type": [
+        "Side",
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:14:27.446515+00:00",
+    "updated_at": "2026-02-05T01:59:58.322746+00:00",
+    "wine_pairing": null,
+    "book_id": "9c056ed7-e462-47b4-843b-75cfc6655df9"
+  },
+  {
+    "id": "c8008816-3073-40e6-a9f1-31c62a51c0eb",
+    "title": "Nuoc Cham",
+    "servings": 6,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/c8008816-3073-40e6-a9f1-31c62a51c0eb.jpeg"
+    ],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": null,
+    "total_time_minutes": 5,
+    "source": "Nuoc Cham.pdf",
+    "notes": "If you like more heat, use fresh chopped Thai chili peppers instead of Holland chilies. They'll give the sauce a spicier kick!",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [],
+      "cuisine": [
+        "Vietnamese"
+      ],
+      "protein": [
+        "Vegan"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:13:19.972264+00:00",
+    "updated_at": "2026-02-05T01:59:56.652384+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "d570049b-9031-4be5-911b-9d294c7e5e58",
+    "title": "Spatchcocked Roast Turkey",
+    "servings": 12,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/d570049b-9031-4be5-911b-9d294c7e5e58.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 120,
+    "total_time_minutes": 135,
+    "source": "Kenji",
+    "notes": "If using a brined, salted, or Kosher turkey, omit salting step.",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Roasted"
+      ],
+      "source": [
+        "Kenji"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Chicken"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T22:13:47.469834+00:00",
+    "updated_at": "2026-02-05T01:59:57.335741+00:00",
+    "wine_pairing": null,
+    "book_id": "9c056ed7-e462-47b4-843b-75cfc6655df9"
+  },
+  {
+    "id": "6c09d899-b7dd-4585-b2e9-73b5a1a322f6",
+    "title": "Grilled Carrots, Steak, and Red Onion with Spicy Fish-Sauce",
+    "servings": 2,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/6c09d899-b7dd-4585-b2e9-73b5a1a322f6.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 25,
+    "total_time_minutes": 40,
+    "source": "Six Seasons",
+    "notes": "This dish came to be while I was working on the farm and grilling out one summer night. Somehow a carrot ended up on the grill, and from that point on, every vegetable became fair game for the flame! Be sure you don't coat your carrots with oil before you grill them; grilled oil just tastes like chemicals to me. Note that you can absolutely leave the steak out of this dish and it will be just as good.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Grilled"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Beef"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:33:00.620784+00:00",
+    "updated_at": "2026-02-05T01:59:10.465605+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "0e3c9e7f-4784-4210-b4d9-f9c2c9a3ea72",
+    "title": "White Chili With Chicken",
+    "servings": 8,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/0e3c9e7f-4784-4210-b4d9-f9c2c9a3ea72.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 90,
+    "total_time_minutes": 600,
+    "source": null,
+    "notes": "Beans take a long time to cook! If undercooked they are gross. Don't be afraid to use canned beans instead",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Slow-Cooked"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mexican",
+        "American"
+      ],
+      "protein": [
+        "Chicken"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:33:57.918998+00:00",
+    "updated_at": "2026-02-05T01:59:11.639395+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "f4cb860f-2938-4aab-897e-1aef9a80dc96",
+    "title": "Lemon Ginger Turmeric Detox Tea",
+    "servings": 10,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/f4cb860f-2938-4aab-897e-1aef9a80dc96.jpeg"
+    ],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 25,
+    "source": null,
+    "notes": "This makes about 4-5 cups of concentrated tea which you can store in the fridge. Add ¼ cup of concentrate to 6 oz hot water with fresh lemon juice when ready to serve.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [],
+      "cuisine": [],
+      "protein": [
+        "Vegan"
+      ],
+      "meal_type": [
+        "Drink"
+      ]
+    },
+    "created_at": "2026-02-04T21:55:33.860103+00:00",
+    "updated_at": "2026-02-05T01:59:35.155425+00:00",
+    "wine_pairing": null,
+    "book_id": "49a7f907-d7e1-4853-94ff-4f5248fbc5e3"
+  },
+  {
+    "id": "c7fbddf9-f87e-486a-8072-936293e4d463",
+    "title": "Roasted Red Pepper & Feta Spread",
+    "servings": 8,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/c7fbddf9-f87e-486a-8072-936293e4d463.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 35,
+    "total_time_minutes": 55,
+    "source": "Zaytinya",
+    "notes": "I can't tell you the number of friends and guests who have stopped me in the restaurant, pointed to a plate of our htipiti, ruby red peppers tumbled together with feta, and exclaimed, \"I don't know how to say it, but I love it!\" Okay people, let me help you: tee-pee-TEE, that's it, simple-and incredibly delicious. It means \"beaten\" in Greek; traditionally the peppers and cheese were crushed together in a mortar and pestle. What we make at Zaytinya is the opposite of a traditional recipe, which is spicy and very smooth in Greece, while our interpretation is sweet and chunky. We like to serve it by first creating a layer of pureed peppers and feta, then topping it with the chunky mixture and thyme leaves to give you two different textures. If you're short on time, you can skip the puree and dive right into a heaping bowl with pita or lettuce leaves. DON'T overdo the garlic. It's strong since raw",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Roasted"
+      ],
+      "source": [
+        "Zaytinya"
+      ],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Appetizer",
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:13:09.945292+00:00",
+    "updated_at": "2026-02-05T01:59:56.356741+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "92ddd314-5f2d-4975-8d2f-2b7987ed1e07",
+    "title": "Sage Sausage",
+    "servings": 8,
+    "photo_urls": [],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": null,
+    "total_time_minutes": 15,
+    "source": "Thanksgiving",
+    "notes": null,
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:13:29.667375+00:00",
+    "updated_at": "2026-02-05T01:59:57.00091+00:00",
+    "wine_pairing": null,
+    "book_id": "9c056ed7-e462-47b4-843b-75cfc6655df9"
+  },
+  {
+    "id": "341e628c-3955-48f3-a6d3-3dacbee30e7c",
+    "title": "Cranberry-Pomegranate Sauce",
+    "servings": 8,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/341e628c-3955-48f3-a6d3-3dacbee30e7c.jpeg"
+    ],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 10,
+    "total_time_minutes": 45,
+    "source": "Cranberry-Pomegranate Sauce.pdf",
+    "notes": "Let cool for 30 minutes. Can be stored in refrigerator for up to two weeks, reheat prior to serving.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side",
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:13:57.913588+00:00",
+    "updated_at": "2026-02-05T01:59:57.654881+00:00",
+    "wine_pairing": null,
+    "book_id": "9c056ed7-e462-47b4-843b-75cfc6655df9"
+  },
+  {
+    "id": "85cd2433-1fd2-4799-b843-20317c16bc33",
+    "title": "Thai Green Curry",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/85cd2433-1fd2-4799-b843-20317c16bc33.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 25,
+    "total_time_minutes": 55,
+    "source": null,
+    "notes": "The lime leaves are for infusion only and not meant to be eaten when left in large pieces. They are traditionally left in the curry, but be sure to inform your guests not to eat them. If you feel that the curry is weak and needs more curry paste, sauté the additional curry paste in some oil in a small pot for a few minutes until aromatic, then add about a cup of the curry sauce to dissolve the paste and let it simmer for a few minutes, then stir it back into the curry.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "Thai"
+      ],
+      "protein": [
+        "Chicken"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:34:29.739671+00:00",
+    "updated_at": "2026-02-05T01:59:12.330107+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "5aebf28e-2342-44b4-a4f0-d9e06d434c25",
+    "title": "Lamb and Bulgur Meatballs in Lemony Yogurt Sauce",
+    "servings": 24,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/5aebf28e-2342-44b4-a4f0-d9e06d434c25.jpeg"
+    ],
+    "prep_time_minutes": 45,
+    "cook_time_minutes": 35,
+    "total_time_minutes": 80,
+    "source": null,
+    "notes": "One of the many splendors of meatballs is that they freeze beautifully, giving you a complex dinner in minutes. I shape my meatballs, arrange them on a parchment-lined sheet pan, and then freeze the raw meatballs \"naked\" until quite firm. At that point, I pile them into a good freezer container or bag. The individual freezing method means I can pull out the number I want at any time, leaving the rest for the next meatball meal. The bulgur keeps the texture light and tender, and it of course adds more nutritional value. Serve the meatballs and sauce with some plain cooked grains or whole wheat couscous.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [
+        "Lamb"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:37:30.986602+00:00",
+    "updated_at": "2026-02-05T01:59:15.797424+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "b79fa58c-c812-4bff-8ce4-4a6fdfbd7dc9",
+    "title": "Pipián Mole",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/b79fa58c-c812-4bff-8ce4-4a6fdfbd7dc9.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 40,
+    "total_time_minutes": 60,
+    "source": null,
+    "notes": "Commonly served like a stew with meat or poultry, pipián is a thick sauce that derives its spicy, nutty flavor from seeds and chiles. It can be found all over Mexico in red and green varieties, but this specific version is Yucatecan— distinct for its use of slightly bitter achiote along with the pumpkin and sesame seeds, smoky chipotle, and searing árbols. I finish this recipe with shrimp broth to help marry its flavors with the Grilled Shrimp Tacos (page 177), but you can certainly use whatever broth you have on hand. If you want to try pipián in a more traditional context, just add your raw protein to a pot of the simmering sauce, braise until tender, and serve with rice or tortillas.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Roasted"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mexican"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:43:20.325886+00:00",
+    "updated_at": "2026-02-05T01:59:22.493968+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "282c4598-8385-4093-a7c4-1a561a99907c",
+    "title": "Butternut Squash with Sausage, Sage, and Spicy Chiles",
+    "servings": 3,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/282c4598-8385-4093-a7c4-1a561a99907c.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "total_time_minutes": 50,
+    "source": null,
+    "notes": "A roasted squash puree gives this dish a rich creaminess without any cream. Make a double batch of the puree and freeze half for the next time you make this dish. I call for butternut squash here rather than another variety because I like the flavor, it's easy to find, and the shape of the squash is cooperative when it comes to peeling and cooking—no weird crenellations. But the world of winter squash is wide and delicious, so substitute other varieties and see what you like best. Make a simpler version of the dish by cooking some noodles, finishing them in the squash puree, and topping with a sprinkle of sliced Calabrian chiles and tons of grated Parmigiano-almost-instant pasta.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:49:45.559494+00:00",
+    "updated_at": "2026-02-05T01:59:29.185418+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "a159370d-d7c9-42cc-9d30-c18eec91e35e",
+    "title": "Do Chua (Pickled Carrots and Daikon)",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/a159370d-d7c9-42cc-9d30-c18eec91e35e.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 5,
+    "total_time_minutes": 20,
+    "source": null,
+    "notes": "The Do Chua will keep for approximately 3 weeks in the refrigerator.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Pickled"
+      ],
+      "source": [],
+      "cuisine": [
+        "Vietnamese"
+      ],
+      "protein": [
+        "Vegetarian",
+        "Vegan"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:01:35.872481+00:00",
+    "updated_at": "2026-02-05T01:59:39.257419+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "74f97d4f-cc9e-4561-b926-9a8124650cb6",
+    "title": "Cucumbers, Scallions, Mint, and Dried Chiles",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/74f97d4f-cc9e-4561-b926-9a8124650cb6.jpeg"
+    ],
+    "prep_time_minutes": 45,
+    "cook_time_minutes": null,
+    "total_time_minutes": 45,
+    "source": "Six Seasons",
+    "notes": "This is my absolute go-to cucumber dish - you can throw it together in no time and the combination of cool cukes, hot chiles, and fragrant mint is definitely the whole being greater than the sum of its parts. Key here, however, is the vinegar, which is the slightly sweet, beautifully balanced late-harvest Sauvignon Blanc vinegar made by Albert Katz.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:03:41.410163+00:00",
+    "updated_at": "2026-02-05T01:59:42.678844+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "ed48ac5e-b2fa-4c5a-865a-0fc37840b13d",
+    "title": "Meatballs In Spiced Tomato Sauce (Soutzoukakia)",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/ed48ac5e-b2fa-4c5a-865a-0fc37840b13d.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 30,
+    "total_time_minutes": 50,
+    "source": null,
+    "notes": "As you have seen throughout this book, Greece and Turkey have a shared history-people have migrated back and forth, bringing with them ingredients, dishes, and stories. These meatballs—full of cumin and cooked in a rich spiced tomato sauce-come from the ancient town of Smyrna, which is now known as izmir, on the Aegean Sea in the far west of Turkey. The Greeks who lived there fled in the 1920s to Greece, bringing the dish with them. It survives in Greece as soutzoukakia (a Greek-Turkish mash-up meaning \"little spicy sausages\") and in Turkey as izmir köfte-the preparations differ, but the dishes share a recognizable heritage.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [
+        "Beef"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:36:37.470285+00:00",
+    "updated_at": "2026-02-05T01:59:15.117688+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "e871ccef-b9d5-437c-914d-921bab612484",
+    "title": "Fried Potato and Cheese Pancake",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/e871ccef-b9d5-437c-914d-921bab612484.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 45,
+    "total_time_minutes": 60,
+    "source": "Six Seasons",
+    "notes": "Serve this crisp-on-the-outside and creamy-on-the-inside dish on its own as a savory side, or dress it up by topping with a drizzle of Spiced Green Sauce or Pickle Salsa Verde (page 44), or with spicy greens and herbs dressed in olive oil and lemon with a shower of cheese.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Fried"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:03:15.393804+00:00",
+    "updated_at": "2026-02-05T01:59:41.991682+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "e6ccc76b-9167-4766-93c0-c724153e1e4f",
+    "title": "Lamb Baharat Kebabs",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/e6ccc76b-9167-4766-93c0-c724153e1e4f.jpeg"
+    ],
+    "prep_time_minutes": 25,
+    "cook_time_minutes": 10,
+    "total_time_minutes": 35,
+    "source": "Zaytinya",
+    "notes": "Baharat is an all-purpose spice blend from around the Middle East— the word just means \"spice\" in Arabic. Our Golden Baharat features Aleppo pepper, turmeric, ginger, and fenugreek, giving it a warming and aromatic heat, which goes perfectly with lamb. The best cut of lamb for these kebabs is top round, a relatively new cut on the market, which comes from the inside of the leg and is super tender. Slice it thin and it doesn't take long to cook, which makes it perfect for grilling. If you can't find top round, a butterflied boneless leg of lamb will work— just trim away as much of the connective tissue and fat as possible.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Grilled"
+      ],
+      "source": [
+        "Zaytinya"
+      ],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [
+        "Lamb"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:39:14.815207+00:00",
+    "updated_at": "2026-02-05T01:59:18.219595+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "cf86f048-6f22-40b2-9047-d73b7dfb0d62",
+    "title": "White Bolognese with Cream",
+    "servings": 12,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/cf86f048-6f22-40b2-9047-d73b7dfb0d62.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 120,
+    "total_time_minutes": 150,
+    "source": null,
+    "notes": "As with so many classic dishes, ragu alla Bolognese comes with variants, misconceptions, and many strong opinions. This white version focuses on meats without tomato, with a generous addition of cream. The sauce is made even creamier by blending a portion of it. Can be served with pappardelle, tagliatelle, or fettuccine, and is fantastic with bitter greens like escarole or dandelion tossed in at the end.",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Braised"
+      ],
+      "source": [
+        "Pasta"
+      ],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [
+        "Beef",
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:41:12.862037+00:00",
+    "updated_at": "2026-02-05T01:59:20.200177+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "25abc47e-be50-4c4f-b5eb-5bbd529c213b",
+    "title": "Tacos Al Pastor",
+    "servings": 12,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/25abc47e-be50-4c4f-b5eb-5bbd529c213b.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 35,
+    "source": null,
+    "notes": "Short of investing in a vertical broiler, this hack is the closest you'll get to al pastor tacos at home. We tend to think of pork shoulder as something that needs to be braised, but a well-butchered shoulder steak given a swift ride on a ripping hot grill can be a thing of beauty—the wide surface area means more of that good Maillard char you want from al pastor. Take your time when slicing the finished meat: thin, bias-cut slivers are the ideal texture here.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Grilled"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mexican"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:41:27.396717+00:00",
+    "updated_at": "2026-02-05T01:59:20.526175+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "b082861d-7766-4142-abff-c2fc90cf4dbe",
+    "title": "Chongqing Chicken with Chiles (Lazi Ji)",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/b082861d-7766-4142-abff-c2fc90cf4dbe.jpeg"
+    ],
+    "prep_time_minutes": 25,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 45,
+    "source": null,
+    "notes": "The first time you encounter this dish, it appears terrifyingly spicy, the cubes of chicken peeking out from a vast pile of blood-red chiles. But it's not, in fact, as extreme as it looks. The chiles that give the dish its visual drama are used to lend fragrance and a gentle heat to the cooking oil and are not usually eaten: you just use your chopsticks to extract delectable morsels of deep-fried chicken, leaving the chiles on the plate. Use only medium-hot chiles and be careful not to burn them - they should end up scorched but still gloriously red.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Fried"
+      ],
+      "source": [],
+      "cuisine": [
+        "Chinese"
+      ],
+      "protein": [
+        "Chicken"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:48:41.550433+00:00",
+    "updated_at": "2026-02-05T01:59:28.1459+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "4abc344f-f3c5-4e1a-a829-9717610a8afe",
+    "title": "Penne alla Vodka",
+    "servings": 3,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/4abc344f-f3c5-4e1a-a829-9717610a8afe.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 25,
+    "total_time_minutes": 40,
+    "source": "Penne alla Vodka.pdf",
+    "notes": "This is one of the best Italian American pasta recipes of all time, but the penne is the least important part. There are better options for this sauce-fusilli comes to mind (as do rigatoni and paccheri). The penne's not critical, and frankly, neither is the vodka. It does add a slight edge to the flavor and possibly creates some good chemistry among the other ingredients, but you'll still have a delicious sauce if you leave out the vodka. What is critical here is the tomato paste, which is the only source of tomato in this recipe.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Cookbook"
+      ],
+      "cuisine": [
+        "Italian",
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:51:07.10286+00:00",
+    "updated_at": "2026-02-05T01:59:30.491065+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "9f4a1da6-861c-4952-a6f9-3163c65dffcf",
+    "title": "Farrotto, Cacio e Pepe Style",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/9f4a1da6-861c-4952-a6f9-3163c65dffcf.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 45,
+    "total_time_minutes": 60,
+    "source": null,
+    "notes": "Love making this farro dish that uses the same technique: Toast the grain and some aromatics in oil and then cook the grain by gradually adding broth until the texture is tender and creamy. I first encountered this method in a recipe by food writer and whole-grain champion Martha Rose Shulman, and over the years have adapted it to my own tastes. This basic cheese-and-black-pepper version is a good foundational recipe from which you can go crazy with variations. Farro is a lot denser than the polished white Arborio rice typically used in risotto, so you need to take measures to allow the kernels to become tender and encourage the creamy starch to develop. I usually use pearled farro, which has had the tough hull removed, and I break up the kernels by spinning it in a food processor for a few pulses. You want the grains broken up into irregular bits, but you don't want them too fine. Hulled farro (which still has the bran coating the kernels) will work fine, especially after a trip through the food processor, but will take longer to cook and may not give you as creamy a result.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:52:32.675829+00:00",
+    "updated_at": "2026-02-05T01:59:31.812485+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "aaf9ee33-e4ce-4428-b929-f6ffe9c0baf3",
+    "title": "Pho",
+    "servings": 8,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/aaf9ee33-e4ce-4428-b929-f6ffe9c0baf3.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 330,
+    "total_time_minutes": 360,
+    "source": null,
+    "notes": null,
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Slow-Cooked"
+      ],
+      "source": [],
+      "cuisine": [
+        "Vietnamese"
+      ],
+      "protein": [
+        "Beef"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:48:17.457621+00:00",
+    "updated_at": "2026-02-05T01:59:27.80463+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "75b06c86-e5ec-4d9c-aa65-751de87e236f",
+    "title": "Easy Mac & Cheese",
+    "servings": 2,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/75b06c86-e5ec-4d9c-aa65-751de87e236f.jpeg"
+    ],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 10,
+    "total_time_minutes": 15,
+    "source": "Easy Mac & Cheese.pdf",
+    "notes": null,
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:01:26.855239+00:00",
+    "updated_at": "2026-02-05T01:59:38.927041+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "0b9a1c69-4edb-40ff-b5b4-b412725b369d",
+    "title": "Half-Steamed Turnips with Alla Diavola Butter",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/0b9a1c69-4edb-40ff-b5b4-b412725b369d.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 30,
+    "source": "Six Seasons",
+    "notes": "My inspiration for this dish is kimchi, with its garlicky-spicy pungent notes. I deliver the spiciness in a flavored butter, however, so the dish also has a note of luxuriousness.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:02:50.76648+00:00",
+    "updated_at": "2026-02-05T01:59:41.274944+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "b6cb6234-f235-4223-9e86-0c45df6df11a",
+    "title": "Adobo Sauce",
+    "servings": 8,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/b6cb6234-f235-4223-9e86-0c45df6df11a.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 45,
+    "total_time_minutes": 65,
+    "source": null,
+    "notes": "Masa may be the bedrock of Mexican cuisine, but adobo is what makes it sing. The dried chile paste is a component in countless dishes, slathered on robust meats like the pork for Al Pastor Tacos and the lamb for the Lamb Barbacoa Tacos. The dried chile and aromatic spice flavors in this paste are versatile, so adobo is a useful thing to have around to add instant depth—try thinning it with oil and using it to dress a hearty vegetable, like asparagus. Adobo will last 1 week in the refrigerator, and 1 month in an airtight container in the freezer.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Roasted"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mexican"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:11:13.244146+00:00",
+    "updated_at": "2026-02-05T01:59:53.106145+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "85bb2cae-1e98-4d1d-977a-ac36f32b324c",
+    "title": "Ladolemono (Lemon-Honey Dressing)",
+    "servings": 8,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/85bb2cae-1e98-4d1d-977a-ac36f32b324c.jpeg"
+    ],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": null,
+    "total_time_minutes": 10,
+    "source": "Zaytinya",
+    "notes": "We use gallons of this lemony dressing to flavor many dishes on our menu. It has the power to make a good salad great, though in Greece you'll most often find it as a marinade for chicken or lamb. Mixing it into Greek yogurt takes this dressing into sauce territory, or drizzle it over fish for a touch of sweet and sour. Keep a container of it in your refrigerator, to be ready to go at any time, just give it a shake or blend to emulsify it again. Keep refrigerated in an airtight container for about a week. The sauce will separate as it sits; blend again to emulsify.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Zaytinya"
+      ],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:11:45.051869+00:00",
+    "updated_at": "2026-02-05T01:59:54.04529+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "6a5edecf-fe40-461f-be89-323307ded86e",
+    "title": "Salsa Mexicana",
+    "servings": 8,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/6a5edecf-fe40-461f-be89-323307ded86e.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": null,
+    "total_time_minutes": 15,
+    "source": "Salsa Mexicana.pdf",
+    "notes": "\"Pico de gallo\" can mean a lot of things in Mexico. In Oaxaca, pico can be a grapefruit salad with chiles and honey. In other regions, it refers generally to a fresh fruit salsa. In the United States, though, pico de gallo is shorthand for what is ubiquitously known south of the border as salsa Mexicana: a chop of fresh tomato, jalapeño or serrano chile, cilantro, and onion. Browse enough Mexican menus and you'll start to notice that anything served \"a la Mexicana\" arrives smothered in these red, white, and green ingredients- a bit of gastro-patriotism that gives a nod to the colors of the Mexican flag. This salsa is delicious raw, but you can also cook it down and use it as an aromatic base for other dishes. Salsa Mexicana doesn't keep well-eat it the day it is made.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [],
+      "cuisine": [
+        "Mexican"
+      ],
+      "protein": [
+        "Vegan"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:12:07.800732+00:00",
+    "updated_at": "2026-02-05T01:59:54.719822+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "91b91dc7-0e7c-4720-9daf-fe536509dffe",
+    "title": "Tomato Soup with Arugula, Torn Croutons, and Pecorino",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/91b91dc7-0e7c-4720-9daf-fe536509dffe.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 15,
+    "total_time_minutes": 30,
+    "source": "Six Seasons",
+    "notes": "Play with other herbs, such as some rosemary instead of the thyme, as well as adding fresh basil, mint, or parsley. Parmigiano can take the place of the pecorino, or skip the cheese altogether to keep this vegan. You can serve this soup cold or warm, and it freezes well, so make a triple batch and freeze some to have a taste of summer when the snow falls again. MORE WAYS: Make a quick cioppino: Add 2 cups of mixed seafood-such as peeled and deveined shrimp, scallops, chunks of halibut, or cooked crabmeat-to the hot soup and simmer just until cooked. Omit the arugula and pecorino, and finish with lemon. Build a heartier soup: Fold in cooked white beans, sliced cooked sausage, and a handful of torn basil leaves. Add complexity: Include a roasted red pepper with the tomatoes and add a tablespoon of smoked paprika when you add the thyme.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Lunch",
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T22:02:17.197839+00:00",
+    "updated_at": "2026-02-05T01:59:40.240109+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "d24b84f0-5ec1-45c8-8ee9-516d6fdaec23",
+    "title": "Tomato, Melon, and Hot Chile Salad with Burrata",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/d24b84f0-5ec1-45c8-8ee9-516d6fdaec23.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": null,
+    "total_time_minutes": 15,
+    "source": "Six Seasons",
+    "notes": "When you join tomatoes, melons, and hot pickled peppers, the sweet, tart, and spicy juices mingle into a delicious complexity. The salad is beautiful, too, especially when you use a mix of tomato and melon colors— an ideal party dish. Make the salad with burrata or mozzarella— buffalo if you can find it-or without cheese at all. If you do use burrata, it's best to toss this with your hands so you can get the creamy burrata to coat the tomatoes and melon.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side",
+        "Appetizer"
+      ]
+    },
+    "created_at": "2026-02-04T22:04:30.466843+00:00",
+    "updated_at": "2026-02-05T01:59:44.025112+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "3b6e557f-350c-45c2-83b9-c1baeb411c89",
+    "title": "Turnip Salad with Yogurt, Herbs, and Poppy Seeds",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/3b6e557f-350c-45c2-83b9-c1baeb411c89.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": null,
+    "total_time_minutes": 30,
+    "source": "Six Seasons",
+    "notes": "The large amount of poppy seeds in this dish adds an amazing floral quality, plus plenty of crunch. You could swap crème fraîche for the yogurt, if you're feeling luxurious, and if you have some chervil, add that to the mix of herbs. Make sure you drain the turnips super well and serve the dish right away; otherwise, things may get a bit soggy.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:05:49.985165+00:00",
+    "updated_at": "2026-02-05T01:59:45.727373+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "b1ff2e48-4af5-4f7c-9cca-0634042b211b",
+    "title": "Caesar Salad",
+    "servings": 2,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/b1ff2e48-4af5-4f7c-9cca-0634042b211b.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": null,
+    "total_time_minutes": 20,
+    "source": null,
+    "notes": "A classic-and in my mind perfect-companion to pasta, Caesar salad is great as a refreshing first course or as a side dish served at the same time as your pasta main dish. When you're making a green salad, usually your goal is to avoid overdressing it, but here that goal goes out the window. With Caesar salad, excess is best. First, lightly dress the romaine leaves with lemon juice, olive oil, and grated cheese, and then bring in the Caesar dressing, along with breadcrumbs, croutons, and more cheese to create another layer of flavor and texture.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side",
+        "Appetizer"
+      ]
+    },
+    "created_at": "2026-02-04T22:06:56.770028+00:00",
+    "updated_at": "2026-02-05T01:59:46.761205+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "06b6c71d-e98a-4ec6-9aff-8dbc9c5cbc16",
+    "title": "Pasta alla Gricia with Slivered Sugar Snap Peas",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/06b6c71d-e98a-4ec6-9aff-8dbc9c5cbc16.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 35,
+    "source": "Six Seasons",
+    "notes": "Pasta alla gricia is a very simple Roman pasta dish consisting of guanciale (cured pork jowl) and pecorino. As I do with many traditional Italian dishes, I use the classic as a springboard for improvisation. Here I add very thinly sliced snap peas, which creates an amazing texture as well as adds a fresh green note to the otherwise quite rich pasta. And I use my Cacio e Pepe Butter as a perfect shortcut, once again demonstrating that a well-stocked larder means delicious food in minutes.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:37:44.970733+00:00",
+    "updated_at": "2026-02-05T01:59:16.120028+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "b4e96f50-6e9b-48c7-9292-105bbaf361f5",
+    "title": "Cochinita Pibil",
+    "servings": 12,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/b4e96f50-6e9b-48c7-9292-105bbaf361f5.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 240,
+    "total_time_minutes": 270,
+    "source": null,
+    "notes": "Cochinita pibil is an iconic dish of the Yucatán, as seminal to the cuisine of the peninsula as barbacoa is to Oaxaca. Just like barbacoa, cooking pork pibil involves wrapping a whole animal in banana leaves and burying it in an underground oven—a \"pib\"—to slow-roast for hours until the pork is fragrant and melts at the prick of a fork. The meat can then be wrapped in a tortilla, stuffed into bread for a torta, or served in a pool of its own broth, always with searing-hot salsa habanera and pink pickled onions on the side.",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Braised"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mexican"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:38:29.489732+00:00",
+    "updated_at": "2026-02-05T01:59:17.176086+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "08eb342c-ffea-442d-b46f-8c26711071ff",
+    "title": "Rigatoni and Eggplant alla Norma",
+    "servings": 2,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/08eb342c-ffea-442d-b46f-8c26711071ff.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 25,
+    "total_time_minutes": 55,
+    "source": "Six Seasons",
+    "notes": "The traditional Sicilian dish pasta alla Norma was named after a tragic character in an opera, but I like to think of Norma as an Italian grandmother who loves being in the kitchen. She's the type of cook who can turn simple ingredients into something marvelous, like this quick dish.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "Italian"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:44:53.214323+00:00",
+    "updated_at": "2026-02-05T01:59:24.167502+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "388bc306-d859-49ae-b72a-358b27a49904",
+    "title": "Braised Pork Shoulder, Knepfle Noodles, Cabbage, Caraway, Apple",
+    "servings": 6,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/388bc306-d859-49ae-b72a-358b27a49904.jpeg"
+    ],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 60,
+    "total_time_minutes": 90,
+    "source": "Cooking For Good Times",
+    "notes": "Knepfle (pronounced NEFF-la) is the Alsatian version of spaetzle. I got this recipe from Chef Paul Virant, who got it from Chef Jean Joho. These are less like soft egg noodles and more like little dumplings, and super delicious because they're a little lighter and crisp up in a pan full of butter—which is exactly what you do before dumping them over the top of the pork with some seared charred cabbage and tart green apple.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Braised"
+      ],
+      "source": [
+        "Cooking For Good Times"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Pork"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:45:15.607814+00:00",
+    "updated_at": "2026-02-05T01:59:24.480105+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "b78839be-9959-4d8b-a6a5-5e8620c04a11",
+    "title": "Braised Beef with Lots and Lots of Onions",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/b78839be-9959-4d8b-a6a5-5e8620c04a11.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": 150,
+    "total_time_minutes": 170,
+    "source": "Six Seasons",
+    "notes": "This is one of those miraculous dishes that uses only a few basic ingredients, doesn't require much technique or fussing, and yet produces a delectable and soul-satisfying dish that's superb on its own but lends itself to leftover improvisation. MORE WAYS: Build a deconstructed stew: Cut the meat into pieces and fold everything with some boiled and smashed potatoes, celery root, and carrots. Add a touch of water or broth to loosen. Make a hearty soup: Shred some meat, then combine in a pot with some of the onions and juices, thinly sliced turnips and carrots, and torn kale leaves. Add broth and simmer until all is tender. Serve with crusty bread. Lay out a spread: Slice the beef and arrange on a platter, smothered with the onions and juices. Serve at room temperature with several different kinds of pickle, good prepared horseradish, and torn bread and butter. Make my favorite Italian beef sandwich: Heat the beef and onions with their liquid, slice a baguette or roll in half, stuff with beef and onions, and dip it back into the liquid. This is a messy and perfect sandwich.",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Braised"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Beef"
+      ],
+      "meal_type": [
+        "Dinner"
+      ]
+    },
+    "created_at": "2026-02-04T21:53:06.758237+00:00",
+    "updated_at": "2026-02-05T01:59:32.493324+00:00",
+    "wine_pairing": null,
+    "book_id": "820847b7-678f-4347-b487-ef5fc4b5e1a6"
+  },
+  {
+    "id": "b3318cc5-f1ad-438b-a38b-0b8b4b996d94",
+    "title": "Toasted Brown Rice Horchata",
+    "servings": 6,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/b3318cc5-f1ad-438b-a38b-0b8b4b996d94.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 8,
+    "total_time_minutes": 263,
+    "source": "Grains For Every Season",
+    "notes": "Toasting the rice deepens the flavor, giving this Mexican-inspired drink a nice edge. Thorough straining is key to a good texture, so bring some attention to that. If you have a nut-milk bag, this is a perfect use for it. Makes about 1½ quarts (1.5 liters). Serve the horchata with a cooled shot of espresso or some cold-brew coffee.",
+    "tags": {
+      "effort": "Project",
+      "method": [
+        "Roasted"
+      ],
+      "source": [
+        "Grains For Every Season"
+      ],
+      "cuisine": [
+        "Mexican",
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Drink"
+      ]
+    },
+    "created_at": "2026-02-04T21:58:26.393353+00:00",
+    "updated_at": "2026-02-05T02:00:03.257624+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  },
+  {
+    "id": "f64966dd-bb8e-4d71-aea2-51e33fd0f841",
+    "title": "Sticky Rice (& Coconut Sticky Rice)",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 30,
+    "cook_time_minutes": 25,
+    "total_time_minutes": 55,
+    "source": "Night+Market",
+    "notes": "Given how essential sticky rice (or glutinous rice, as it's often labeled) is to the Thai diet, making khao niew the traditional way is kind of a hassle. At the restaurant, we cook 200 cups at a time. The rice is soaked overnight in big plastic containers, wrapped in cheesecloth, and then steamed in these conical bamboo steamer baskets. It's a process. That's not to say you shouldn't attempt sticky rice the traditional way at home, but I would recommend saving that method for occasions where you're making sticky rice for a big group rather than one to four people. For me, the best way to make sticky rice in a pinch involves the microwave (you know you grew up in a Thai-American household when your mom made sticky rice in the microwave). It's a product of immigrant ingenuity. While microwaved sticky rice won't produce exactly the same tacky texture as steamed sticky rice, the results are close enough to make the time and effort trade-off worth it. Since microwave wattage varies, I'd suggest microwaving the rice in increments rather than all at once, stirring and checking for doneness in between.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [],
+      "source": [
+        "Night+Market"
+      ],
+      "cuisine": [
+        "Thai"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:00:18.401662+00:00",
+    "updated_at": "2026-02-05T01:59:37.184942+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "a8f0a99a-5ad6-454e-bcc3-ea1d7e6c6ae5",
+    "title": "Fried Cauliflower with Spicy Fish-Sauce Sauce",
+    "servings": 4,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/a8f0a99a-5ad6-454e-bcc3-ea1d7e6c6ae5.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 35,
+    "source": "Six Seasons",
+    "notes": "This recipe is the result of an experiment I did one day when I was working at a restaurant in New York City. I was cooking Brussels sprouts and trying to figure out what method to use to get them super crispy. I had sprouts going simultaneously in a sauté pan, the oven, the steamer, and I threw one into the deep fryer. I sort of forgot about that one, yanking it out only after it was almost burnt. And of course it was the winner-crisp, almost charred, and exceedingly sweet. Now I use the same method for many vegetables, cauliflower being ideal. You can serve it simply tossed with lemon, salt, and dried chile flakes; with a lime and freshly coarsely chopped garlic and parsley; or with a sauce or dip, as I do here.",
+    "tags": {
+      "effort": "Moderate",
+      "method": [
+        "Fried"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:03:53.819674+00:00",
+    "updated_at": "2026-02-05T01:59:43.009475+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "2ea9308a-6088-4ea1-8e3a-f37760c76cd7",
+    "title": "Raw Brussels Sprouts with Lemon, Anchovy, Walnuts, and Pecorino",
+    "servings": 2,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/2ea9308a-6088-4ea1-8e3a-f37760c76cd7.jpeg"
+    ],
+    "prep_time_minutes": 20,
+    "cook_time_minutes": null,
+    "total_time_minutes": 20,
+    "source": "Six Seasons",
+    "notes": "I love this salad-it's like a very citrusy version of a Caesar salad, but of course with incredibly nutritious Brussels sprouts. The early-season sprouts, which are compact with tender outer leaves, shaved thin, are perfect for eating raw. Do take your time slicing them-either with a mandoline or a sharp knife-to get them absolutely as thin as possible.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Side"
+      ]
+    },
+    "created_at": "2026-02-04T22:07:37.043897+00:00",
+    "updated_at": "2026-02-05T01:59:47.743947+00:00",
+    "wine_pairing": null,
+    "book_id": "61f941f7-df41-4f7e-9e1e-343d92ea2792"
+  },
+  {
+    "id": "259c31a5-423e-4660-9d40-a3ad29c9cedf",
+    "title": "Crema Mexicana",
+    "servings": 16,
+    "photo_urls": [],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 2,
+    "total_time_minutes": 2887,
+    "source": "Crema Mexicana.pdf",
+    "notes": "Although sour cream is a common substitute, in Mexican culinary vernacular true crema is much closer to crème fraîche. It is lightly cultured and tangy, often with a pourable consistency. Because crema is a fermented product—it relies on the live cultures present in buttermilk or yogurt to encourage bacterial growth-you can safely store it in the refrigerator for a few weeks. Crema can be used to thicken or enrich a dish, but it is broadly thought of as a condiment. If you're using it to garnish a taco, let it come to room temperature so that the crema can be drizzled on the taco.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [],
+      "cuisine": [
+        "Mexican"
+      ],
+      "protein": [],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:08:21.598349+00:00",
+    "updated_at": "2026-02-05T01:59:48.426729+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "684c8096-a284-4739-b699-416c821b0e30",
+    "title": "Lemon Cream",
+    "servings": 1,
+    "photo_urls": [],
+    "prep_time_minutes": 10,
+    "cook_time_minutes": null,
+    "total_time_minutes": 130,
+    "source": "Six Seasons",
+    "notes": "This is a light, almost feminine dressing that is beautiful on a simple spring lettuce salad, but also on other green vegetables. Use this dressing within a day. MORE WAYS: Dress any type of green salad. Drizzle over cold poached shrimp or scallops. Toss with thinly sliced cucumbers.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "American"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:08:50.664059+00:00",
+    "updated_at": "2026-02-05T01:59:49.44236+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "bd6c3d7c-21d1-4940-a679-4cbd694c7955",
+    "title": "Cape Gooseberry Salsa",
+    "servings": 4,
+    "photo_urls": [],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 12,
+    "total_time_minutes": 27,
+    "source": null,
+    "notes": "Mango and pineapple have their place in Mexican cuisine, but I've never been particularly interested in fruity salsas. They feel dated, like something you'd find topping a canapé at a party in the nineties. Still, experimenting with cape gooseberries—also known as ground cherries—felt intriguing. The tiny orange fruits in the nightshade family are closely related to tomatillos, and they add more sweetness and concentrated tang than their larger cousins. This salsa toys with that natural affinity: It's a variation on the Tomatillo-Chipotle Salsa, replacing the tomatillos with gooseberries. I like this one best with simple grilled fish.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Roasted"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mexican"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T22:09:25.804681+00:00",
+    "updated_at": "2026-02-05T01:59:50.407502+00:00",
+    "wine_pairing": null,
+    "book_id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7"
+  },
+  {
+    "id": "de4ba1b1-ff00-4a55-8483-fc60d106ac3a",
+    "title": "Toasted Rice Powder",
+    "servings": 16,
+    "photo_urls": [],
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 20,
+    "total_time_minutes": 25,
+    "source": null,
+    "notes": "Made from uncooked rice that's been toasted in the wok and ground, rice powder is something you'd traditionally find in Isaan-style larb and yum (salads). Its subtle nutty flavor and crunchy, pleasantly sandy texture make certain dishes sing. I find the applications for rice powder go way beyond Thai food. You could experiment in any situation you would use bread crumbs- sprinkled over pasta, for instance-or use it instead of sesame seeds when you're dressing sautéed vegetables or marinated greens. It also functions as a mild thickening agent: A pinch or two adds some body to clear soups or non-coconut milk curries. Every Thai cook has a preference for using sticky rice or jasmine rice in rice powder, but both are suitable in my opinion. Use whatever is on hand. Much like other toasted preparations in this chapter, the key to rice powder is low heat, patience, and a lot of stirring. I've included some aromatics in the recipe below. These additions lend flavor but aren't strictly essential-even plain rice powder is terrific.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "Thai"
+      ],
+      "protein": [
+        "Vegan"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:56:12.373949+00:00",
+    "updated_at": "2026-02-05T01:59:59.64736+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  },
+  {
+    "id": "74af6128-177c-4359-8d7f-0343312c4bbb",
+    "title": "Achiote Paste",
+    "servings": 8,
+    "photo_urls": [],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 10,
+    "total_time_minutes": 25,
+    "source": "Achiote Paste.pdf",
+    "notes": "Also called annatto, the strange nubby seeds that constitute this seasoning paste are harvested from the spiny fruits of tropical achiote shrubs. Achiote is used as food coloring in many parts of the world (notice how your hands turn orange as you work with it). But the seeds are part of a staple spice rub in Mexican cookery, especially in Oaxaca and the Yucatán. Achiote is slightly bitter and medicinal, but those flavors mellow out when combined with garlic and the wintery notes of cinnamon and allspice in this paste. I slather it on Cochinita Pibil Tacos, but you could use it to season chicken or grilled shrimp or add it to the water when cooking rice. Achiote paste will last up to 1 month in an airtight container in the refrigerator.",
+    "tags": {
+      "effort": "Quick",
+      "method": [
+        "Sautéed"
+      ],
+      "source": [],
+      "cuisine": [
+        "Mexican"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:56:55.2495+00:00",
+    "updated_at": "2026-02-05T02:00:00.956363+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  },
+  {
+    "id": "94c29817-4944-4713-9254-441b1f2b3913",
+    "title": "Pistachio Butter",
+    "servings": 1,
+    "photo_urls": [
+      "https://rifdotvjfzhqcjvidifx.supabase.co/storage/v1/object/public/recipe-photos/94c29817-4944-4713-9254-441b1f2b3913.jpeg"
+    ],
+    "prep_time_minutes": 15,
+    "cook_time_minutes": null,
+    "total_time_minutes": 15,
+    "source": "Six Seasons",
+    "notes": "This is a true nut butter—there's no dairy involved. When I worked at Lupa in New York City, we had a beet and pistachio butter salad that was famous-they could not take it off the menu for fear of riots. I've created my own version of that butter, and it's amazingly versatile. The flavor is super rich as is, but it's also really tasty with a squeeze of lime or lemon to cut through that richness. MORE WAYS: Pipe or spread onto celery sticks for an appetizer. Smear on a plate and top with roasted root vegetables. Drizzle over lamb meatballs, served on basmati rice.",
+    "tags": {
+      "effort": "Quick",
+      "method": [],
+      "source": [
+        "Six Seasons"
+      ],
+      "cuisine": [
+        "Mediterranean"
+      ],
+      "protein": [
+        "Vegetarian"
+      ],
+      "meal_type": [
+        "Sauce"
+      ]
+    },
+    "created_at": "2026-02-04T21:59:14.621915+00:00",
+    "updated_at": "2026-02-05T02:00:04.890635+00:00",
+    "wine_pairing": null,
+    "book_id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb"
+  }
+]

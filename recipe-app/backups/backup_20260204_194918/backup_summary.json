@@ -1,0 +1,10 @@
+{
+  "timestamp": "20260204_194918",
+  "tables": {
+    "recipes": 167,
+    "ingredients": 1754,
+    "directions": 806,
+    "favorites": 0,
+    "recipe_books": 7
+  }
+}

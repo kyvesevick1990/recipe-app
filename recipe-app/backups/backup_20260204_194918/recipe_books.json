@@ -1,0 +1,65 @@
+[
+  {
+    "id": "820847b7-678f-4347-b487-ef5fc4b5e1a6",
+    "name": "Dinners",
+    "description": null,
+    "icon": "🍽️",
+    "sort_order": 1,
+    "created_at": "2026-02-05T01:58:45.500753+00:00",
+    "updated_at": "2026-02-05T01:58:45.500753+00:00"
+  },
+  {
+    "id": "cf44f483-9c09-458d-8a88-1f163ef3797c",
+    "name": "Dessert",
+    "description": null,
+    "icon": "🍰",
+    "sort_order": 2,
+    "created_at": "2026-02-05T01:58:45.500753+00:00",
+    "updated_at": "2026-02-05T01:58:45.500753+00:00"
+  },
+  {
+    "id": "49a7f907-d7e1-4853-94ff-4f5248fbc5e3",
+    "name": "Drinks",
+    "description": null,
+    "icon": "🍹",
+    "sort_order": 3,
+    "created_at": "2026-02-05T01:58:45.500753+00:00",
+    "updated_at": "2026-02-05T01:58:45.500753+00:00"
+  },
+  {
+    "id": "61f941f7-df41-4f7e-9e1e-343d92ea2792",
+    "name": "Salads & Sides",
+    "description": null,
+    "icon": "🥗",
+    "sort_order": 4,
+    "created_at": "2026-02-05T01:58:45.500753+00:00",
+    "updated_at": "2026-02-05T01:58:45.500753+00:00"
+  },
+  {
+    "id": "68fdf3d9-623d-42f3-a9ae-a2bdf27f41a7",
+    "name": "Sauces Dips Dressings",
+    "description": null,
+    "icon": "🫙",
+    "sort_order": 5,
+    "created_at": "2026-02-05T01:58:45.500753+00:00",
+    "updated_at": "2026-02-05T01:58:45.500753+00:00"
+  },
+  {
+    "id": "9c056ed7-e462-47b4-843b-75cfc6655df9",
+    "name": "Thanksgiving",
+    "description": null,
+    "icon": "🦃",
+    "sort_order": 6,
+    "created_at": "2026-02-05T01:58:45.500753+00:00",
+    "updated_at": "2026-02-05T01:58:45.500753+00:00"
+  },
+  {
+    "id": "8c2e08be-24ed-456b-8958-14cfb1ffecfb",
+    "name": "Misc",
+    "description": null,
+    "icon": "📦",
+    "sort_order": 7,
+    "created_at": "2026-02-05T01:58:45.500753+00:00",
+    "updated_at": "2026-02-05T01:58:45.500753+00:00"
+  }
+]
