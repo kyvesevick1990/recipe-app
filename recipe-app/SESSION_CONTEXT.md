@@ -6,7 +6,7 @@
 
 - **Live URL**: Deployed on Vercel (check Vercel dashboard for exact URL)
 - **Repository**: https://github.com/kyvesevick1990/recipe-app.git
-- **Local Path**: `C:\Users\Kyle\Desktop\Claude-sandbox\recipe-app\recipe-app`
+- **Local Path**: `C:\Users\Kyle\Claude-Dev\recipe-app\recipe-app`
 
 ---
 
@@ -270,7 +270,7 @@ If still broken, the issue may be something intercepting events higher in the DO
 
 ### To Restore Code
 ```bash
-cd "C:\Users\Kyle\Desktop\Claude-sandbox\recipe-app\recipe-app"
+cd "C:\Users\Kyle\Claude-Dev\recipe-app\recipe-app"
 git checkout v1.0-frozen .
 git add .
 git commit -m "Revert to frozen version"
@@ -279,7 +279,7 @@ git push
 
 ### To Restore Database
 ```bash
-cd "C:\Users\Kyle\Desktop\Claude-sandbox\recipe-app\recipe-app"
+cd "C:\Users\Kyle\Claude-Dev\recipe-app\recipe-app"
 python scripts/restore_database.py backup_20260204_194918
 # Type YES when prompted
 ```
@@ -328,7 +328,7 @@ git push
 
 ```bash
 # Start dev server
-cd "C:\Users\Kyle\Desktop\Claude-sandbox\recipe-app\recipe-app"
+cd "C:\Users\Kyle\Claude-Dev\recipe-app\recipe-app"
 npm run dev
 
 # Build for production
